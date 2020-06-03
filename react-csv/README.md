@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Because node_modules is not uploaded, so you must run to get all packages:
+Because node_modules is not uploaded, so you must run this code to get all packages:
 
-## `yarn install`
+### `yarn install`
 
 In the project directory, you can run:
 
