@@ -4,6 +4,10 @@
 
 to install package/node_modules:
 
+> npm install
+
+or
+
 > yarn install
 
 to add react-csv package, we can use **npm** package manager:
@@ -12,16 +16,21 @@ to add react-csv package, we can use **npm** package manager:
 
 to start the app:
 
+> npm start
+
+or
+
 > yarn start
 
-### 2. _Generate, drop, and read CSV file_
+### 2. _How to generate CSV file_
 
-#### _Generate csv file_
+Use **_CSVLink_** component from **_react-csv_** packages to generate a CSV file. The data that we want to use should be organized first into an **array of arrays** or **array of object**. Here I stored the data into array of object, and I created two variables of data, one for the headers and another for the bodies. Here below is my code:
 
 ```javascript
 import React, { Component, Fragment } from "react";
-import { CSVLink } from "react-csv";
 import { Button, ListGroup, ListGroupItem } from "react-bootstrap";
+
+import { CSVLink } from "react-csv";
 
 class App extends Component {
   constructor(props) {
@@ -138,11 +147,9 @@ class App extends Component {
 export default App;
 ```
 
-Here is the result:
+And here is the result:
 
 ###
-
-![generate](https://user-images.githubusercontent.com/60772041/84361568-115f8a80-abf6-11ea-8a1d-a0a2310560e2.png)
 
 ![example](https://user-images.githubusercontent.com/60772041/84365678-014aa980-abfc-11ea-864b-810d7a02b0f0.gif)
 
