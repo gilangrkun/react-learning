@@ -16,7 +16,7 @@ to start the app:
 
 ### 2. _How to generate CSV file_
 
-Use **_CSVLink_** component from **_react-csv_** packages to generate a CSV file. The data that we want to use should be organized first into an **array of arrays** or **array of object**. Here I stored the data into array of object, and I created two variables of data, one for the headers and another for the bodies. Here below is my code:
+I learn how to generate a csv file using **_CSVLink_** component from **_react-csv_** package. The data that we want to add should be organized first into an **array of arrays** or **array of object**. Here I stored the data into array of object, and I created two variables of data, one for the headers and another for the bodies. Here below is my code:
 
 ```javascript
 import React, { Component, Fragment } from "react";
