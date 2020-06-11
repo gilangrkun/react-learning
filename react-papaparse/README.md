@@ -16,7 +16,7 @@ to start the app:
 
 ### 2. _How to read CSV file_
 
-Continued from my previous learning about **[react-csv](https://github.com/gilangrkun/react-learning/tree/master/react-csv)**, now I want to share my learning about how to read the csv file which I have downloaded. To read it, I want to use **_CSVReader_** component from **_react-papaparse_** package. The goals of this learning is to display the data inside the csv file into the page. Below here is my learning code:
+Continued from my previous learning about **[react-csv](https://github.com/gilangrkun/react-learning/tree/master/react-csv)**, now I want to share my learning about how to read the csv file which I have downloaded. To read it, I want to use **_CSVReader_** component from **_react-papaparse_** package. The goals of this learning is to display the data inside the csv file into the page. Below here is my learning code (_visit src folder for complete code_):
 
 ```javascript
 import React, { Component, Fragment } from "react";
@@ -68,39 +68,7 @@ class App extends Component {
     return (
       <Fragment>
         <div style={{ background: "honeyDew" }}>
-          <div
-            style={{ height: "10vh", background: "lightSteelBlue" }}
-            className="d-flex justify-content-center align-items-center"
-          >
-            <h6 className="m-0 mr-4">
-              The next link will generate CSV file. Click the button to download
-            </h6>
-            <Button variant="success" className="mr-4">
-              <CSVLink
-                className="text-white"
-                filename={"cumaNgetes1.csv"}
-                // data header and body1 used here
-                headers={csvDataHeaders}
-                data={csvDataBody}
-              >
-                <strong>Download CSV_1</strong>
-              </CSVLink>
-            </Button>
-            <Button variant="success">
-              <CSVLink
-                className="text-white"
-                filename={"cumaNgetes2.csv"}
-                // data header and body2 used here
-                headers={csvDataHeaders}
-                data={csvDataBody2}
-              >
-                <strong>Download CSV_2</strong>
-              </CSVLink>
-            </Button>
-          </div>
-          <hr />
-          <br />
-          <hr />
+          // ....previous code
           <div
             style={{ height: "20vh", background: "darkSeaGreen" }}
             className="d-flex justify-content-center align-items-center pt-3 pb-3"
