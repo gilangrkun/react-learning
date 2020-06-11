@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from "react";
 import { CSVLink } from "react-csv";
-import { Button, ListGroup, ListGroupItem, Col } from "react-bootstrap";
+import { Button, ListGroup, ListGroupItem } from "react-bootstrap";
 import { CSVReader } from "react-papaparse";
 import { Link } from "react-router-dom";
 
-export class App extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,7 +21,7 @@ export class App extends Component {
         },
         {
           firstname: "Alexa",
-          lastname: "Chung",
+          lastname: "Sanchez",
           email: "alexa@unitedkindom.com",
         },
         {
@@ -42,14 +42,14 @@ export class App extends Component {
       ],
       csvDataBody2: [
         {
-          firstname: "Gojira",
+          firstname: "Toast",
           lastname: "French",
-          email: "gojira@google.com",
+          email: "toastt@google.com",
         },
         {
-          firstname: "Chung",
-          lastname: "Alexa",
-          email: "chung@unitedkindom.com",
+          firstname: "Coconut",
+          lastname: "Delight",
+          email: "frissianflag@unitedkindom.com",
         },
         {
           firstname: "Anne",
@@ -58,11 +58,11 @@ export class App extends Component {
         },
         {
           firstname: "George",
-          lastname: "floyd",
+          lastname: "Floyd",
           email: "floydgeorge@footballer.com",
         },
         {
-          firstname: "Sherlock",
+          firstname: "Shareloc",
           lastname: "Holmes",
           email: "bakersville@actorhandsom.com",
         },
@@ -168,7 +168,7 @@ export class App extends Component {
             className="d-flex justify-content-center align-items-center"
           >
             <h6 className="m-0 mr-4">
-              The next link contains data CSV. Click the button to download
+              The next link will generate CSV file. Click the button to download
             </h6>
             <Button variant="success" className="mr-4">
               <CSVLink
