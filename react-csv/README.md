@@ -4,11 +4,7 @@
 
 to install package/node_modules:
 
-> npm install
-
-or
-
-> yarn install
+> npm install or yarn install
 
 to add react-csv package, we can use **npm** package manager:
 
@@ -16,11 +12,7 @@ to add react-csv package, we can use **npm** package manager:
 
 to start the app:
 
-> npm start
-
-or
-
-> yarn start
+> npm start or yarn start
 
 ### 2. _How to generate CSV file_
 
