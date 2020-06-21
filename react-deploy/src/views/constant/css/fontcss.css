@@ -1,0 +1,43 @@
+.bioRhyme {
+  font-family: "BioRhyme", serif;
+}
+
+.alegreya {
+  font-family: "Alegreya", serif;
+}
+
+.alegreya-black {
+  font-family: "Alegreya", serif;
+  font-weight: 900;
+}
+
+.b612 {
+  font-family: "B612", sans-serif;
+}
+
+.b612-bold {
+  font-family: "B612", sans-serif;
+  font-weight: 600;
+}
+
+.candal {
+  font-family: "Candal", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.sigmar {
+  font-family: "Sigmar One", cursive;
+}
