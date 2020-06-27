@@ -1,14 +1,18 @@
 import React from "react";
-// import router
-import { HashRouter as Router, Route } from "react-router-dom";
-// import pages
-import Home from "./views/index";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+// custom components
+import Home from "./views/Homepage";
 
 const App = () => {
   return (
-    <Router>
-      <Route exact path="/" component={Home} />
-    </Router>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 };
 
