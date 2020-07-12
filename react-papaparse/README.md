@@ -144,5 +144,5 @@ And here is the result:
 
 ![result](https://user-images.githubusercontent.com/60772041/84375635-17f7fd00-ac0a-11ea-875e-1feb12ccb16f.gif)
 
-### Hello from _Indonesia_
+#### _Bonjour_ from Indonesia,
 ### :wink: _keep learning and stay hacking!_ :wink:
