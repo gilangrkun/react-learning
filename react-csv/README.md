@@ -145,4 +145,4 @@ And here is the result:
 
 ![example](https://user-images.githubusercontent.com/60772041/84365678-014aa980-abfc-11ea-864b-810d7a02b0f0.gif)
 
-### Hello from Indonesia :wink: :wink:
+### :wink: Keep Learning and Stay Hacking :wink:
