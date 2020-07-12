@@ -6,7 +6,7 @@ to install package/node_modules:
 
 > npm install or yarn install
 
-to add react-papaparse package, we can use **npm** or **yarn** package manager:
+to add react-papaparse library, we can use **npm** or **yarn** package manager:
 
 > npm install react-papaparse --save or yarn add react-papaparse
 
@@ -16,7 +16,7 @@ to start the app:
 
 ### 2. _How to read CSV file_
 
-Continued from my previous learning about **[react-csv](https://github.com/gilangrkun/react-learning/tree/master/react-csv)**, now I want to share my learning about how to read the csv file which I have downloaded. To read it, I want to use **_CSVReader_** component from **_react-papaparse_** package. The goals of this learning is to display the data inside the csv file into the page. Below here is my learning code (_visit src folder for complete code_):
+Continued from my previous learning about **[react-csv](https://github.com/gilangrkun/react-learning/tree/master/react-csv)**, now I want to share my learning about how to read the csv file which I have downloaded before. To read it, I want to use **_CSVReader_** component from **_react-papaparse_** library. The goals of this learning is to display the data inside the csv file into the page. Below here is my learning code (_visit src folder for complete code_):
 
 ```javascript
 import React, { Component, Fragment } from "react";
@@ -144,4 +144,5 @@ And here is the result:
 
 ![result](https://user-images.githubusercontent.com/60772041/84375635-17f7fd00-ac0a-11ea-875e-1feb12ccb16f.gif)
 
+### Hello from _Indonesia_
 ### :wink: _keep learning and stay hacking!_ :wink:

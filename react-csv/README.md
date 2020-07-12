@@ -6,7 +6,7 @@ to install package/node_modules:
 
 > npm install or yarn install
 
-to add react-csv package, we can use **npm** package manager:
+to add react-csv library, we can use **npm** package manager:
 
 > npm install react-csv --save
 
@@ -16,7 +16,7 @@ to start the app:
 
 ### 2. _How to generate CSV file_
 
-I learn how to generate a csv file using **_CSVLink_** component from **_react-csv_** package. The data that we want to add should be organized first into an **array of arrays** or **array of object**. Here I stored the data into array of object, and I created two variables of data, one for the headers and another for the bodies. Here below is my code:
+I learn how to generate a csv file using **_CSVLink_** component from **_react-csv_** package. The data that we want to add should be organized first into an **array of arrays** or **array of objects**. Here I stored the data into array of objects, and I created two variables of data, one for the headers and another for the bodies. Here below is my code:
 
 ```javascript
 import React, { Component, Fragment } from "react";
@@ -145,4 +145,5 @@ And here is the result:
 
 ![example](https://user-images.githubusercontent.com/60772041/84365678-014aa980-abfc-11ea-864b-810d7a02b0f0.gif)
 
-### :wink: Hello from Indonesia :wink: :wink:
+### Hello from _Indonesia_
+### :wink: _keep learning and stay hacking!_ :wink:
