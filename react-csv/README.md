@@ -145,5 +145,6 @@ And here is the result:
 
 ![example](https://user-images.githubusercontent.com/60772041/84365678-014aa980-abfc-11ea-864b-810d7a02b0f0.gif)
 
-### Welcome to my GitHub! ![Github.com/gilangrkun](http://github.com/gilangrkun)
+### Welcome to my GitHub!
+you can see this page at ![github.com/gilangrkun](https://github.com/gilangrkun)
 ### :wink: _keep learning and stay hacking!_ :wink:
