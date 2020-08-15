@@ -18,11 +18,13 @@ const Homepage = () => {
       opacity: "0",
       width: "100%",
       height: "0vh",
+      backgroundColor: "black",
     },
     to: {
       opacity: "1",
       width: "100%",
       height: "100vh",
+      backgroundColor: "DarkSlateGrey",
     },
     config: config.slow,
   });
@@ -84,7 +86,7 @@ const Homepage = () => {
     <Fragment>
       <a.div
         style={bgFade}
-        className="row m-0 bg-dark d-flex justify-content-center align-items-center"
+        className="row m-0 d-flex justify-content-center align-items-center"
       >
         <a.div style={bgWide}>
           <div
