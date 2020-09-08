@@ -2,6 +2,9 @@ import React, { Fragment, useState } from "react";
 import { useSpring, animated as a, config } from "react-spring";
 import { Container, Row, Col, Button } from "reactstrap";
 import Welcome from "../components/CustomWelcome";
+import Profile from "../components/Profile";
+import Projects from "../components/Projects";
+import Footer from "../components/Footer";
 
 // custom components
 import Wall2 from "../image/wallDua.jpg";
@@ -24,7 +27,7 @@ const Homepage = () => {
       opacity: "1",
       width: "100%",
       height: "100vh",
-      backgroundColor: "DarkSlateGrey",
+      backgroundColor: "dimGrey",
     },
     config: config.slow,
   });
@@ -108,6 +111,9 @@ const Homepage = () => {
                     Hello
                   </a.h2>
                 </Col>
+                <Col className="d-flex flex-column justify-content-start align-items-start">
+                  <Welcome />
+                </Col>
                 <Col className="pb-5 h-100 d-flex flex-column justify-content-end align-items-end">
                   <a.h2 className={colorText} style={textFadeReverse}>
                     Kuntiarso
@@ -152,8 +158,9 @@ const Homepage = () => {
           </div>
         </a.div>
       </a.div>
-      <Welcome />
-      <div style={{ width: "100%", height: "100vh" }}></div>
+      <Profile color={yellow} />
+      <Projects color={yellow} />
+      <Footer />
     </Fragment>
   );
 };
