@@ -1,13 +1,18 @@
 import React from "react";
+import Topnav from "./components/topnav";
+import Row1 from "./components/row1";
+import Row2 from "./components/row2";
+import Row3 from "./components/row3";
+import Row4 from "./components/row4";
 
 function App() {
   return (
     <div className="App">
-      <h4>Learning TailwindCSS</h4>
-      <p>
-        Let me use this css framework for building my own portfolio. I'm going
-        now!
-      </p>
+      <Topnav />
+      <Row1 />
+      <Row2 />
+      <Row3 />
+      <Row4 />
     </div>
   );
 }
