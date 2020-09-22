@@ -12,7 +12,7 @@ class Topnav extends Component {
   }
 
   handleScroll = () => {
-    if (window.scrollY > 694) {
+    if (window.scrollY > 693) {
       document.querySelector(".navbar").className =
         "navbar scroll font-DMmono fixed z-10 w-full bg-white shadow-lg";
     } else {
@@ -32,8 +32,8 @@ class Topnav extends Component {
     };
 
     return (
-      <nav className="navbar font-DMmono fixed z-10 w-full">
-        <div className="flex items-center justify-around flex-wrap container mx-auto font-normal text-xl">
+      <nav className="navbar fixed z-10 w-full">
+        <div className="flex items-center justify-around flex-wrap container mx-auto font-cormorant font-semibold text-xl">
           <span className="tracking-light">
             <a class="text-green-500 hover:text-green-800" href="#">
               Profile

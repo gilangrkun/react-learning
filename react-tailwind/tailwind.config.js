@@ -7,9 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        robotoMono: ["Roboto Mono"],
-        spaceMono: ["Space Mono"],
-        DMmono: ["DM Mono"],
+        cormorant: ["Cormorant"],
+        gothic: ["Gothic A1"],
       },
     },
   },

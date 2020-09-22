@@ -2,13 +2,35 @@ import React, { Component } from "react";
 import Lottie from "react-lottie";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {
+  Java,
+  HTML,
+  CSS,
+  JavaScript,
+  ReactJS,
+  Bootstrap4,
+  TailwindCSS,
+  SpringBoot,
+  MongoDB,
+  PostgreSQL,
+  Firebase,
+  GitHub,
+  GitLab,
+  Linux,
+  ArchLinux,
+  GIT,
+} from "./languages";
 
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 import animation from "../assets/lottie/33502-programmer-man.json";
 
 class Row3 extends Component {
   render() {
+    // aos section
     AOS.init();
 
+    // lottie section
     const lottie1 = {
       loop: true,
       autoplay: true,
@@ -19,19 +41,288 @@ class Row3 extends Component {
     };
 
     return (
-      <div className="w-full bg-gray-200 font-DMmono font-normal text-xl relative">
-        <div className="container mx-auto flex items-center pt-64 pb-64">
-          <div
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            className="ml-32"
-            style={{ height: "22rem", width: "22rem" }}
-          >
-            <Lottie options={lottie1} />
+      <div className="w-full bg-gray-300 relative">
+        <div className="container mx-auto p-32">
+          <div className="grid grid-cols-3 grid-rows-4 gap-4 font-cormorant text-lg">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="col-span-1 row-span-4"
+            >
+              <Lottie options={lottie1} />
+            </div>
+            <div
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              className="col-span-1 flex items-center"
+            >
+              <p className="font-bold text-4xl">
+                <i>What can I do: </i>
+              </p>
+            </div>
+            <div className="col-span-1"></div>
+            <div
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+              className="col-span-2 row-span-3"
+            >
+              <Tabs forceRenderTabPanel defaultIndex={1}>
+                <TabList>
+                  <Tab>Front-End</Tab>
+                  <Tab>Back-End</Tab>
+                  <Tab>Other Tools</Tab>
+                </TabList>
+                <TabPanel>
+                  <Tabs forceRenderTabPanel>
+                    <TabList>
+                      <Tab>HTML</Tab>
+                      <Tab>CSS</Tab>
+                      <Tab>JavaScript</Tab>
+                      <Tab>React.js</Tab>
+                      <Tab>Bootstrap</Tab>
+                      <Tab>Tailwind.css</Tab>
+                    </TabList>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            Of course, I do using <i>HTML</i> to create a web
+                            page.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <HTML />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            I'm able to use <i>CSS</i> for styling the web page.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <CSS />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            I use <i>JS</i> to make some function of the web
+                            page.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <JavaScript />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            I loved to use <i>React.js</i> to develop a complex
+                            projects.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <ReactJS />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            I loved to use <i>Bootstrap</i> which was easy and
+                            best for styling.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <Bootstrap4 />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            <i>TailwindCSS</i> is best for customizing a web
+                            designs.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <TailwindCSS />
+                        </div>
+                      </div>
+                    </TabPanel>
+                  </Tabs>
+                </TabPanel>
+                <TabPanel>
+                  <Tabs forceRenderTabPanel>
+                    <TabList>
+                      <Tab>Java</Tab>
+                      <Tab>Spring Boot</Tab>
+                      <Tab>MongoDB</Tab>
+                      <Tab>PostgreSQL</Tab>
+                      <Tab>Firebase</Tab>
+                    </TabList>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div
+                          data-aos="zoom-out-up"
+                          data-aos-duration="1000"
+                          data-aos-delay="200"
+                          className="col-span-1"
+                        >
+                          <p className="text-center">
+                            I choose <i>Java</i> because it can use for
+                            general-purpose and have large of community.
+                          </p>
+                        </div>
+                        <div
+                          data-aos="zoom-out-up"
+                          data-aos-duration="1000"
+                          data-aos-delay="250"
+                          className="col-span-1 row-span-4 flex justify-center items-start"
+                        >
+                          <Java />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            As a java programmer, to create a big project or
+                            develop a micro-services, I use <i>Spring Boot</i>.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <SpringBoot />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            I'm able to use <i>MongoDB</i> for storing document
+                            like JSON data.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <MongoDB />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            To store relational data, I'm able to use{" "}
+                            <i>PostgreSQL</i>.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <PostgreSQL />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            Sometimes, I loved to learn <i>Firebase</i> for
+                            storing real-time data.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <Firebase />
+                        </div>
+                      </div>
+                    </TabPanel>
+                  </Tabs>
+                </TabPanel>
+                <TabPanel>
+                  <Tabs forceRenderTabPanel>
+                    <TabList>
+                      <Tab>Git</Tab>
+                      <Tab>GitHub</Tab>
+                      <Tab>GitLab</Tab>
+                      <Tab>Linux</Tab>
+                      <Tab>Arch</Tab>
+                    </TabList>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            I always managed all of my code using <i>Git</i>.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <GIT />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            For sharing and learning, I use <i>GitHub</i>.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <GitHub />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            <i>GitLab</i> is perfect for storing, also deploying
+                            a project.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <GitLab />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            <i>Linux</i> for development.
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <Linux />
+                        </div>
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
+                        <div className="col-span-1">
+                          <p className="text-center">
+                            I'm a fan of Arch. My favorite distribution of all
+                            TIME!!!
+                          </p>
+                        </div>
+                        <div className="col-span-1 row-span-4 flex justify-center items-start">
+                          <ArchLinux />
+                        </div>
+                      </div>
+                    </TabPanel>
+                  </Tabs>
+                </TabPanel>
+              </Tabs>
+            </div>
           </div>
-          <span className="bg-red-400 ml-10">
-            <p>What can I do: </p>
-          </span>
         </div>
       </div>
     );

@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -3539,10 +3537,6 @@ video {
 
 .bg-gradient-to-tl{
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
-}
-
-.bg-hero-img{
-  background-image: url('./assets/img/bgpic.jpg');
 }
 
 .from-transparent{
@@ -10207,16 +10201,12 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.font-robotoMono{
-  font-family: Roboto Mono;
+.font-cormorant{
+  font-family: Cormorant;
 }
 
-.font-spaceMono{
-  font-family: Space Mono;
-}
-
-.font-DMmono{
-  font-family: DM Mono;
+.font-gothic{
+  font-family: Gothic A1;
 }
 
 .font-hairline{
@@ -22406,6 +22396,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+.slick-dots {
+  bottom: 30px;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -25350,10 +25344,6 @@ video {
 
   .sm\:bg-gradient-to-tl{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
-  }
-
-  .sm\:bg-hero-img{
-    background-image: url('./assets/img/bgpic.jpg');
   }
 
   .sm\:from-transparent{
@@ -32018,16 +32008,12 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .sm\:font-robotoMono{
-    font-family: Roboto Mono;
+  .sm\:font-cormorant{
+    font-family: Cormorant;
   }
 
-  .sm\:font-spaceMono{
-    font-family: Space Mono;
-  }
-
-  .sm\:font-DMmono{
-    font-family: DM Mono;
+  .sm\:font-gothic{
+    font-family: Gothic A1;
   }
 
   .sm\:font-hairline{
@@ -47098,10 +47084,6 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .md\:bg-hero-img{
-    background-image: url('./assets/img/bgpic.jpg');
-  }
-
   .md\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -53764,16 +53746,12 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .md\:font-robotoMono{
-    font-family: Roboto Mono;
+  .md\:font-cormorant{
+    font-family: Cormorant;
   }
 
-  .md\:font-spaceMono{
-    font-family: Space Mono;
-  }
-
-  .md\:font-DMmono{
-    font-family: DM Mono;
+  .md\:font-gothic{
+    font-family: Gothic A1;
   }
 
   .md\:font-hairline{
@@ -68844,10 +68822,6 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .lg\:bg-hero-img{
-    background-image: url('./assets/img/bgpic.jpg');
-  }
-
   .lg\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -75510,16 +75484,12 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .lg\:font-robotoMono{
-    font-family: Roboto Mono;
+  .lg\:font-cormorant{
+    font-family: Cormorant;
   }
 
-  .lg\:font-spaceMono{
-    font-family: Space Mono;
-  }
-
-  .lg\:font-DMmono{
-    font-family: DM Mono;
+  .lg\:font-gothic{
+    font-family: Gothic A1;
   }
 
   .lg\:font-hairline{
@@ -90590,10 +90560,6 @@ video {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .xl\:bg-hero-img{
-    background-image: url('./assets/img/bgpic.jpg');
-  }
-
   .xl\:from-transparent{
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -97256,16 +97222,12 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .xl\:font-robotoMono{
-    font-family: Roboto Mono;
+  .xl\:font-cormorant{
+    font-family: Cormorant;
   }
 
-  .xl\:font-spaceMono{
-    font-family: Space Mono;
-  }
-
-  .xl\:font-DMmono{
-    font-family: DM Mono;
+  .xl\:font-gothic{
+    font-family: Gothic A1;
   }
 
   .xl\:font-hairline{
