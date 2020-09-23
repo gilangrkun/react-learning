@@ -12,3 +12,7 @@
 .slick-slide div {
     outline: none;
 }
+
+.react-tabs__tab {
+    padding: 0 4px;
+}

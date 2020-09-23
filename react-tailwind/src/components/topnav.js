@@ -1,25 +1,27 @@
 import React, { Component } from "react";
+
+// lottie
 import Lottie from "react-lottie";
 import cuteOwl from "../assets/lottie/cuteOwl.json";
 
 class Topnav extends Component {
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
+  // componentDidMount() {
+  //   window.addEventListener("scroll", this.handleScroll);
+  // }
 
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
-  }
+  // componentWillUnmount() {
+  //   window.removeEventListener("scroll", this.handleScroll);
+  // }
 
-  handleScroll = () => {
-    if (window.scrollY > 693) {
-      document.querySelector(".navbar").className =
-        "navbar scroll font-DMmono fixed z-10 w-full bg-white shadow-lg";
-    } else {
-      document.querySelector(".navbar").className =
-        "navbar font-DMmono fixed z-10 w-full";
-    }
-  };
+  // handleScroll = () => {
+  //   if (window.scrollY > 693) {
+  //     document.querySelector(".navbar").className =
+  //       "navbar scroll fixed z-10 w-full bg-white shadow-lg invisible sm:visible";
+  //   } else {
+  //     document.querySelector(".navbar").className =
+  //       "navbar fixed z-10 w-full invisible sm:visible";
+  //   }
+  // };
 
   render() {
     const defaultOptions = {
@@ -32,28 +34,31 @@ class Topnav extends Component {
     };
 
     return (
-      <nav className="navbar fixed z-10 w-full">
-        <div className="flex items-center justify-around flex-wrap container mx-auto font-cormorant font-semibold text-xl">
-          <span className="tracking-light">
-            <a class="text-green-500 hover:text-green-800" href="#">
+      <nav className="bg-indigo-800 navbar container fixed z-10 invisible sm:visible">
+        <div className="bg-red-400 flex flex-col flex-wrap font-cormorant font-bold text-xl">
+          <span
+            className="tracking-light bg-yellow-500"
+            style={{ height: "64", width: "64" }}
+          >
+            <a className="text-green-400 hover:text-green-700" href="#">
               Profile
             </a>
           </span>
-          <span className="tracking-light">
-            <a class="text-green-500 hover:text-green-800" href="#">
+          <span className="tracking-light bg-yellow-500">
+            <a className="text-green-400 hover:text-green-700" href="#">
               Portfolio
             </a>
           </span>
-          <div className="mr-6 flex items-center flex-shrink-0">
-            <Lottie options={defaultOptions} height={40} width={60} />
+          <div className="tracking-light bg-yellow-500">
+            <Lottie options={defaultOptions} height={40} width={40} />
           </div>
-          <span className="tracking-light">
-            <a class="text-green-500 hover:text-green-800" href="#">
+          <span className="tracking-light bg-yellow-500">
+            <a className="text-green-400 hover:text-green-700" href="#">
               Skills
             </a>
           </span>
-          <span className="tracking-light">
-            <a class="text-green-500 hover:text-green-800" href="#">
+          <span className="tracking-light bg-yellow-500">
+            <a className="text-green-400 hover:text-green-700" href="#">
               Contact
             </a>
           </span>
