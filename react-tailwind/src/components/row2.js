@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 // lottie
 import Lottie from "react-lottie";
-import animation from "../assets/lottie/welcome3.json";
+import animation from "../assets/lottie/2454-personal-character.json";
 import animation2 from "../assets/lottie/33117-sparrow.json";
 
 class Row2 extends Component {
@@ -31,7 +31,7 @@ class Row2 extends Component {
 
     return (
       <div className="w-full relative">
-        <div className="container mx-auto p-32">
+        <div className="container mx-auto px-32 py-24">
           <div className="grid grid-cols-3 gap-4 font-cormorant text-lg">
             <div
               data-aos="fade-down"

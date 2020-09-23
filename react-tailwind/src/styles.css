@@ -8,3 +8,7 @@
 .slick-dots {
     bottom: 30px;
 }
+
+.slick-slide div {
+    outline: none;
+}

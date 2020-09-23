@@ -9,41 +9,107 @@ class Row5 extends Component {
   render() {
     var settings = {
       dots: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
-      pauseOnHover: true,
+      pauseOnHover: false,
+      focusOnSelect: true,
     };
     return (
-      <div
-        className="w-full font-DMmono font-normal text-md relative"
-        style={{ height: "30rem" }}
-      >
-        <Slider
-          className="w-full h-full slick-dots flex max-h-full items-center bg-gray-700"
-          {...settings}
-        >
-          <div className="bg-red-600 w-full h-full">
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
+      <div className="grid grid-rows-1 grid-cols-1 relative font-cormorant text-base">
+        <div>
+          <Slider {...settings}>
+            <div className="grid grid-rows-1 grid-cols-1">
+              <div
+                className="bg-purple-200 flex flex-col justify-center items-center"
+                style={{ height: "30rem" }}
+              >
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                  className="my-4 text-2xl font-semibold"
+                >
+                  <i>"Hello world"</i>
+                </p>
+                <small data-aos="zoom-in" data-aos-duration="750">
+                  - Gilang Riyadi Kuntiarso
+                </small>
+              </div>
+            </div>
+            <div className="grid grid-rows-1 grid-cols-1">
+              <div
+                className="bg-green-200 flex flex-col justify-center items-center"
+                style={{ height: "30rem" }}
+              >
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                  className="my-4 text-2xl font-semibold"
+                >
+                  <i>"Hello world"</i>
+                </p>
+                <small data-aos="zoom-in" data-aos-duration="750">
+                  - Gilang Riyadi Kuntiarso
+                </small>
+              </div>
+            </div>
+            <div className="grid grid-rows-1 grid-cols-1">
+              <div
+                className="bg-orange-200 flex flex-col justify-center items-center"
+                style={{ height: "30rem" }}
+              >
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                  className="my-4 text-2xl font-semibold"
+                >
+                  <i>"Hello world"</i>
+                </p>
+                <small data-aos="zoom-in" data-aos-duration="750">
+                  - Gilang Riyadi Kuntiarso
+                </small>
+              </div>
+            </div>
+            <div className="grid grid-rows-1 grid-cols-1">
+              <div
+                className="bg-gray-200 flex flex-col justify-center items-center"
+                style={{ height: "30rem" }}
+              >
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                  className="my-4 text-2xl font-semibold"
+                >
+                  <i>"Hello world"</i>
+                </p>
+                <small data-aos="zoom-in" data-aos-duration="750">
+                  - Gilang Riyadi Kuntiarso
+                </small>
+              </div>
+            </div>
+            <div className="grid grid-rows-1 grid-cols-1">
+              <div
+                className="bg-indigo-200 flex flex-col justify-center items-center"
+                style={{ height: "30rem" }}
+              >
+                <p
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                  className="my-4 text-2xl font-semibold"
+                >
+                  <i>"Hello world"</i>
+                </p>
+                <small data-aos="zoom-in" data-aos-duration="750">
+                  - Gilang Riyadi Kuntiarso
+                </small>
+              </div>
+            </div>
+          </Slider>
+        </div>
       </div>
     );
   }

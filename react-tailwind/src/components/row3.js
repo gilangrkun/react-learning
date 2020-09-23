@@ -42,7 +42,7 @@ class Row3 extends Component {
 
     return (
       <div className="w-full bg-gray-300 relative">
-        <div className="container mx-auto p-32">
+        <div className="container mx-auto px-32 py-24">
           <div className="grid grid-cols-3 grid-rows-4 gap-4 font-cormorant text-lg">
             <div
               data-aos="zoom-in-right"
@@ -68,19 +68,37 @@ class Row3 extends Component {
             >
               <Tabs forceRenderTabPanel defaultIndex={1}>
                 <TabList>
-                  <Tab>Front-End</Tab>
-                  <Tab>Back-End</Tab>
-                  <Tab>Other Tools</Tab>
+                  <Tab>
+                    <small className="font-semibold">Front-End</small>
+                  </Tab>
+                  <Tab>
+                    <small className="font-semibold">Back-End</small>
+                  </Tab>
+                  <Tab>
+                    <small className="font-semibold">Other Tools</small>
+                  </Tab>
                 </TabList>
                 <TabPanel>
                   <Tabs forceRenderTabPanel>
                     <TabList>
-                      <Tab>HTML</Tab>
-                      <Tab>CSS</Tab>
-                      <Tab>JavaScript</Tab>
-                      <Tab>React.js</Tab>
-                      <Tab>Bootstrap</Tab>
-                      <Tab>Tailwind.css</Tab>
+                      <Tab>
+                        <small className="font-semibold">HTML</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">CSS</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">JavaScript</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">React.js</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">Bootstrap</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">Tailwind.css</small>
+                      </Tab>
                     </TabList>
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
@@ -164,11 +182,21 @@ class Row3 extends Component {
                 <TabPanel>
                   <Tabs forceRenderTabPanel>
                     <TabList>
-                      <Tab>Java</Tab>
-                      <Tab>Spring Boot</Tab>
-                      <Tab>MongoDB</Tab>
-                      <Tab>PostgreSQL</Tab>
-                      <Tab>Firebase</Tab>
+                      <Tab>
+                        <small className="font-semibold">Java</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">Spring-Boot</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">MongoDB</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">PostgreSQL</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">Firebase</small>
+                      </Tab>
                     </TabList>
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
@@ -250,11 +278,21 @@ class Row3 extends Component {
                 <TabPanel>
                   <Tabs forceRenderTabPanel>
                     <TabList>
-                      <Tab>Git</Tab>
-                      <Tab>GitHub</Tab>
-                      <Tab>GitLab</Tab>
-                      <Tab>Linux</Tab>
-                      <Tab>Arch</Tab>
+                      <Tab>
+                        <small className="font-semibold">Git</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">GitHub</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">GitLab</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">Linux</small>
+                      </Tab>
+                      <Tab>
+                        <small className="font-semibold">Arch</small>
+                      </Tab>
                     </TabList>
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
