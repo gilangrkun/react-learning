@@ -85,6 +85,7 @@ class Section6 extends Component {
                         href="https://www.cronos.id"
                         alt="Cronos.id"
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="text-blue-900 hover:text-blue-700 font-semibold"
                       >
                         PT. Cronos.id
@@ -145,6 +146,7 @@ class Section6 extends Component {
                           href="https://www.cronos.id"
                           alt="Cronos.id"
                           target="_blank"
+                          rel="noopener noreferrer"
                           className="text-blue-900 hover:text-blue-700 font-semibold"
                         >
                           PT. Cronos.id
