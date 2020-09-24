@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 
-/* aos */
 import AOS from "aos";
 import "aos/dist/aos.css";
-/* lottie */
+
 import Lottie from "react-lottie";
 import animation from "../assets/lottie/BloggingColored.json";
-/* img */
+
 import Product from "../assets/img/products.png";
 import Integration from "../assets/img/integration.png";
 
@@ -25,7 +24,6 @@ class Section4 extends Component {
 
     return (
       <div className="w-full relative">
-        {/* for laptop or larger screen */}
         <div className="container mx-auto hidden md:block px-32 py-24 font-audrey text-lg">
           <div className="grid grid-cols-1 grid-rows-1 m-4">
             <div className="grid grid-cols-4">
@@ -145,7 +143,6 @@ class Section4 extends Component {
           </div>
         </div>
 
-        {/* for mobile */}
         <div className="bg-gray-200 mx-auto md:hidden p-1">
           <div className="bg-gray-200 rounded-lg shadow-inner grid grid-cols-1 gap-4 font-audrey text-base p-8">
             <div

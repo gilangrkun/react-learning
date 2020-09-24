@@ -8,10 +8,8 @@ import {
   FaTelegramPlane,
 } from "react-icons/fa";
 
-// aos
 import AOS from "aos";
 
-// css
 import "../styles.css";
 
 class Footer extends Component {
@@ -24,7 +22,6 @@ class Footer extends Component {
         className="w-full relative font-semibold font-cormorant text-lg"
         style={{ backgroundColor: "#c1b9b3", color: "#444240" }}
       >
-        {/* for larger screen */}
         <div className="container mx-auto hidden md:grid md:grid-cols-4 md:gap-4 py-32">
           <div className="col-span-4 font-audrey flex justify-center">
             <p>Reach me everywhere: </p>
@@ -126,7 +123,6 @@ class Footer extends Component {
           </div>
         </div>
 
-        {/* for mobile */}
         <div className="container mx-auto md:hidden grid grid-cols-1 gap-4 py-32">
           <div className="col-span-1 font-audrey flex justify-center">
             <p>Reach me everywhere: </p>

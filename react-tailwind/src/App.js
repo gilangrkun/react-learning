@@ -1,18 +1,8 @@
 import React, { Component } from "react";
 
-// lottieLoading
 import Lottie from "react-lottie";
 import animation from "./assets/lottie/221-infinite-rainbow.json";
 
-// content
-// import Topnav from "./components/topnav";
-// import Row1 from "./components/row1";
-// import Row2 from "./components/row2";
-// import Row3 from "./components/row3";
-// import Row4 from "./components/row4";
-// import Row5 from "./components/row5";
-
-// content revision
 import Section1 from "./components/section1";
 import Section2 from "./components/section2";
 import Section3 from "./components/section3";
@@ -35,7 +25,6 @@ class App extends Component {
     this.setState({ isLoading: true });
   }
   render() {
-    //lottie
     const lottieLoading = {
       loop: true,
       autoplay: true,

@@ -1,13 +1,12 @@
 import React, { Component, Fragment } from "react";
 
-// aos
 import AOS from "aos";
-// lottie
+
 import Lottie from "react-lottie";
 import list from "../assets/lottie/9935-list.json";
 import popper from "../assets/lottie/12389-happy-holidays.json";
 import popper2 from "../assets/lottie/24708-party-popper.json";
-// img
+
 import Avatar from "../assets/img/kuntiaCrop.png";
 
 class Section6 extends Component {
@@ -44,7 +43,6 @@ class Section6 extends Component {
     return (
       <Fragment>
         <div className="bg-white w-full relative p-1">
-          {/* for laptop or larger screen */}
           <div className="bg-white container mx-auto hidden md:grid md:grid-cols-2 md:gap-4 font-audrey text-base px-32 py-24">
             <div
               data-aos="fade-right"
@@ -98,7 +96,6 @@ class Section6 extends Component {
             </div>
           </div>
 
-          {/* for mobile */}
           <div className="bg-white rounded-lg shadow-inner md:hidden grid grid-cols-1 gap-4 font-audrey text-base p-5">
             <div
               data-aos="fade-in"
@@ -161,9 +158,7 @@ class Section6 extends Component {
           </div>
         </div>
 
-        {/* avatar */}
         <div className="bg-orange-100 w-full relative p-1">
-          {/* avatar larger screen */}
           <div className="bg-orange-100 hidden sm:grid sm:grid-cols-2 font-audrey text-lg mt-12 p-5">
             <div
               data-aos="fade-in"
@@ -226,7 +221,7 @@ class Section6 extends Component {
               </p>
             </div>
           </div>
-          {/* avatar for mobile */}
+
           <div className="bg-orange-100 rounded-lg shadow-inner sm:hidden grid grid-cols-1 font-audrey text-base p-5">
             <div
               data-aos="fade-in"

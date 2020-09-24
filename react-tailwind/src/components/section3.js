@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+
 import Lottie from "react-lottie";
+import animation from "../assets/lottie/33502-programmer-man.json";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 import {
   Java,
   HTML,
@@ -23,14 +27,11 @@ import {
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import animation from "../assets/lottie/33502-programmer-man.json";
 
 class Section3 extends Component {
   render() {
-    // aos section
     AOS.init();
 
-    // lottie section
     const lottie1 = {
       loop: true,
       autoplay: true,
@@ -42,7 +43,6 @@ class Section3 extends Component {
 
     return (
       <div className="w-full bg-gray-300 relative">
-        {/* for larger screen */}
         <div className="container mx-auto hidden md:block px-32 py-24">
           <div className="grid grid-cols-3 grid-rows-4 gap-4 font-audrey text-lg">
             <div
@@ -367,7 +367,7 @@ class Section3 extends Component {
             </div>
           </div>
         </div>
-        {/* for mobile */}
+
         <div className="bg-purple-200 mx-auto md:hidden p-1">
           <div className="bg-purple-200 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-audrey text-base p-5">
             <div

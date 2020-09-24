@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 
-// lottie
 import Lottie from "react-lottie";
 import hi from "../assets/lottie/28826-hello-gilbert.json";
 

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-// lottie
 import Lottie from "react-lottie";
 import landing from "../assets/lottie/23583-atomic-design-web-size.json";
 

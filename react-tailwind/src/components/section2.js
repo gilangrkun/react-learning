@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-// aos
+
 import AOS from "aos";
 import "aos/dist/aos.css";
-// lottie
+
 import Lottie from "react-lottie";
 import animation from "../assets/lottie/2454-personal-character.json";
 import animation2 from "../assets/lottie/33117-sparrow.json";
@@ -31,7 +31,6 @@ class Section2 extends Component {
 
     return (
       <div className="bg-white w-full relative">
-        {/* for larger screen */}
         <div className="container hidden sm:block mx-auto px-32 py-24">
           <div className="grid grid-cols-3 gap-4 font-audrey text-lg">
             <div
@@ -90,7 +89,7 @@ class Section2 extends Component {
             </div>
           </div>
         </div>
-        {/* for mobile */}
+
         <div className="bg-gray-300 sm:hidden p-1">
           <div className="bg-gray-300 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-audrey text-base p-10">
             <div
