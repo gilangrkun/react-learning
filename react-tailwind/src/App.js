@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { Component } from "react";
 
 // lottieLoading
 import Lottie from "react-lottie";
@@ -23,40 +23,46 @@ import Background from "./components/background";
 import HelloHi from "./components/hellohi";
 import Footer from "./components/footer";
 
-function App() {
-  const [loading, setLoading] = useState(false);
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isLoading: false,
+    };
+  }
 
-  useEffect(() => {
-    setLoading(true);
-  }, []);
+  componentDidMount() {
+    this.setState({ isLoading: true });
+  }
+  render() {
+    //lottie
+    const lottieLoading = {
+      loop: true,
+      autoplay: true,
+      animationData: animation,
+      renderedSettings: {
+        preserveAspectRatio: "xMidYMid slice",
+      },
+    };
 
-  //lottie
-  const lottieLoading = {
-    loop: true,
-    autoplay: true,
-    animationData: animation,
-    renderedSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
-  return loading === false ? (
-    <div className="bg-gray-800 grid grid-rows-1 grid-cols-1 h-screen p-64">
-      <Lottie options={lottieLoading} />
-    </div>
-  ) : (
-    <div className="App">
-      <Background />
-      <Section1 />
-      <HelloHi />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Footer />
-    </div>
-  );
+    return this.state.isLoading === false ? (
+      <div className="bg-gray-800 grid grid-rows-1 grid-cols-1 h-screen p-64">
+        <Lottie options={lottieLoading} />
+      </div>
+    ) : (
+      <div className="App">
+        <Background />
+        <Section1 />
+        <HelloHi />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
