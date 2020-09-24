@@ -44,13 +44,17 @@ class Section3 extends Component {
       <div className="w-full bg-gray-300 relative">
         {/* for larger screen */}
         <div className="container mx-auto hidden md:block px-32 py-24">
-          <div className="grid grid-cols-3 grid-rows-4 gap-4 font-cormorant text-lg">
+          <div className="grid grid-cols-3 grid-rows-4 gap-4 font-audrey text-lg">
             <div
               data-aos="zoom-in-right"
               data-aos-duration="1000"
               className="col-span-1 row-span-4"
             >
-              <Lottie options={lottie1} />
+              <Lottie
+                style={{ cursor: "default" }}
+                isClickToPauseDisabled={true}
+                options={lottie1}
+              />
             </div>
             <div
               data-aos="zoom-in-left"
@@ -365,7 +369,7 @@ class Section3 extends Component {
         </div>
         {/* for mobile */}
         <div className="bg-purple-200 mx-auto md:hidden p-1">
-          <div className="bg-purple-200 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-cormorant text-base p-5">
+          <div className="bg-purple-200 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-audrey text-base p-5">
             <div
               data-aos="zoom-in-down"
               data-aos-duration="1000"
@@ -380,7 +384,11 @@ class Section3 extends Component {
               data-aos-duration="1000"
               className="col-span-2"
             >
-              <Lottie options={lottie1} />
+              <Lottie
+                style={{ cursor: "default" }}
+                isClickToPauseDisabled={true}
+                options={lottie1}
+              />
             </div>
             <div
               data-aos="fade-in"

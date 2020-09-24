@@ -45,7 +45,7 @@ class Section6 extends Component {
       <Fragment>
         <div className="bg-white w-full relative p-1">
           {/* for laptop or larger screen */}
-          <div className="bg-white container mx-auto hidden md:grid md:grid-cols-2 md:gap-4 font-cormorant text-base p-5">
+          <div className="bg-white container mx-auto hidden md:grid md:grid-cols-2 md:gap-4 font-audrey text-base px-32 py-24">
             <div
               data-aos="fade-right"
               data-aos-duration="1000"
@@ -63,19 +63,22 @@ class Section6 extends Component {
                   <i>My programming experiences: </i>
                 </p>
               </div>
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="250"
-                className="text-lg"
-              >
+              <div className="text-lg">
                 <ul className="list-disc list-outside">
-                  <li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="250"
+                  >
                     <p>Full Stack Bootcamp at Praxis Academy</p>
                     <small>2020.02.28 - 2020.06.28</small>
                   </li>
                   <br />
-                  <li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="500"
+                  >
                     <p>
                       Programmer at{" "}
                       <a
@@ -95,7 +98,7 @@ class Section6 extends Component {
           </div>
 
           {/* for mobile */}
-          <div className="bg-white rounded-lg shadow-inner md:hidden grid grid-cols-1 gap-4 font-cormorant text-base p-5">
+          <div className="bg-white rounded-lg shadow-inner md:hidden grid grid-cols-1 gap-4 font-audrey text-base p-5">
             <div
               data-aos="fade-in"
               data-aos-duration="1000"
@@ -159,12 +162,12 @@ class Section6 extends Component {
         {/* avatar */}
         <div className="bg-orange-100 w-full relative p-1">
           {/* avatar larger screen */}
-          <div className="bg-orange-100 hidden sm:grid sm:grid-cols-2 font-cormorant text-base mt-12 p-5">
+          <div className="bg-orange-100 hidden sm:grid sm:grid-cols-2 font-audrey text-lg mt-12 p-5">
             <div
               data-aos="fade-in"
               data-aos-duration="1000"
-              data-aos-delay="250"
-              className=" col-span-1 grid grid-cols-4 gap-4"
+              data-aos-delay="500"
+              className="col-span-1 grid grid-cols-4 gap-4"
             >
               <div className="col-span-1"></div>
               <div className="col-span-3">
@@ -190,18 +193,92 @@ class Section6 extends Component {
               </div>
               <div className="col-span-1"></div>
             </div>
+            <div className="col-span-2 flex flex-col text-center font-semibold font-cormorant text-6xl p-8">
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>Thank</i>
+              </p>
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>you</i>
+              </p>
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>for</i>
+              </p>
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>visiting!</i>
+              </p>
+            </div>
           </div>
           {/* avatar for mobile */}
-          <div className="bg-orange-100 rounded-lg shadow-inner sm:hidden grid grid-cols-1 gap-4 font-cormorant text-base p-5">
+          <div className="bg-orange-100 rounded-lg shadow-inner sm:hidden grid grid-cols-1 font-audrey text-base p-5">
             <div
-              // data-aos="fade-in"
-              // data-aos-duration="1000"
-              // data-aos-delay="500"
-              className="flex justify-center py-12"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              className="flex justify-center"
             >
-              <div className="bg-indigo-700">
+              <div>
+                <Lottie
+                  style={{ cursor: "default" }}
+                  isClickToPauseDisabled={true}
+                  options={popperLottMobile}
+                />
+              </div>
+            </div>
+            <div
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="250"
+              className="flex justify-center"
+            >
+              <div>
                 <img src={Avatar} alt="Gilang Riyadi Kuntiarso" />
               </div>
+            </div>
+            <div className="flex flex-col text-center py-4 font-semibold font-cormorant text-4xl">
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>Thank</i>
+              </p>
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>you</i>
+              </p>
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>for</i>
+              </p>
+              <p
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <i>visiting!</i>
+              </p>
             </div>
           </div>
         </div>

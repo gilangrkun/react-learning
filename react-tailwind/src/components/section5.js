@@ -21,91 +21,124 @@ class Section5 extends Component {
       focusOnSelect: true,
     };
     return (
-      <div className="grid grid-rows-1 grid-cols-1 relative font-cormorant text-base">
+      <div className="grid grid-rows-1 grid-cols-1 relative font-cormorant text-base md:text-lg">
         <div>
           <Slider {...settings}>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-purple-200 shadow-inner flex flex-col justify-center items-center"
+                className="bg-purple-300 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
                   data-aos-duration="750"
-                  className="my-4 text-2xl font-semibold"
+                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
                 >
-                  <i>"Hello world"</i>
+                  <i>
+                    "Tell me and I forget. Teach me and I remember.
+                    <br />
+                    Involve me and I teach."
+                  </i>
                 </p>
-                <small data-aos="zoom-in" data-aos-duration="750">
-                  - Gilang Riyadi Kuntiarso
+                <small
+                  className="font-audrey"
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                >
+                  - Benjamin Franklin
                 </small>
               </div>
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-green-200 shadow-inner flex flex-col justify-center items-center"
+                className="bg-green-300 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
                   data-aos-duration="750"
-                  className="my-4 text-2xl font-semibold"
+                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
                 >
-                  <i>"Hello world"</i>
+                  <i>
+                    "Nothing is impossible, the word itself says,
+                    <br />
+                    <span className="font-bold text-3xl md:text-5xl">
+                      I'm Possible!
+                    </span>
+                    ."
+                  </i>
                 </p>
-                <small data-aos="zoom-in" data-aos-duration="750">
-                  - Gilang Riyadi Kuntiarso
+                <small
+                  className="font-audrey"
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                >
+                  - Audrey Hepburn
                 </small>
               </div>
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-orange-200 shadow-inner flex flex-col justify-center items-center"
+                className="bg-orange-300 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
                   data-aos-duration="750"
-                  className="my-4 text-2xl font-semibold"
+                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
                 >
-                  <i>"Hello world"</i>
+                  <i>"I would rather die of passion than of boredom."</i>
                 </p>
-                <small data-aos="zoom-in" data-aos-duration="750">
-                  - Gilang Riyadi Kuntiarso
+                <small
+                  className="font-audrey"
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                >
+                  - Vincent van Gogh
                 </small>
               </div>
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-gray-200 shadow-inner flex flex-col justify-center items-center"
+                className="bg-gray-400 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
                   data-aos-duration="750"
-                  className="my-4 text-2xl font-semibold"
+                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
                 >
-                  <i>"Hello world"</i>
+                  <i>
+                    "The way to get started is to quit talking and begin doing."
+                  </i>
                 </p>
-                <small data-aos="zoom-in" data-aos-duration="750">
-                  - Gilang Riyadi Kuntiarso
+                <small
+                  className="font-audrey"
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                >
+                  - Walt Disney
                 </small>
               </div>
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-indigo-200 shadow-inner flex flex-col justify-center items-center"
+                className="bg-indigo-400 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
                   data-aos-duration="750"
-                  className="my-4 text-2xl font-semibold"
+                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
                 >
-                  <i>"Hello world"</i>
+                  <i>"Life is trying things to see if they work."</i>
                 </p>
-                <small data-aos="zoom-in" data-aos-duration="750">
-                  - Gilang Riyadi Kuntiarso
+                <small
+                  className="font-audrey"
+                  data-aos="zoom-in"
+                  data-aos-duration="750"
+                >
+                  - Ray Bradbury
                 </small>
               </div>
             </div>

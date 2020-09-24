@@ -30,10 +30,10 @@ class Section2 extends Component {
     };
 
     return (
-      <div className="w-full relative">
+      <div className="bg-white w-full relative">
         {/* for larger screen */}
         <div className="container hidden sm:block mx-auto px-32 py-24">
-          <div className="grid grid-cols-3 gap-4 font-cormorant text-lg">
+          <div className="grid grid-cols-3 gap-4 font-audrey text-lg">
             <div
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -49,7 +49,11 @@ class Section2 extends Component {
               data-aos-duration="1000"
               className="col-span-1 row-span-2"
             >
-              <Lottie options={lott1} />
+              <Lottie
+                style={{ cursor: "default" }}
+                isClickToPauseDisabled={true}
+                options={lott1}
+              />
             </div>
             <div
               data-aos="fade-right"
@@ -77,13 +81,18 @@ class Section2 extends Component {
               data-aos-duration="1000"
               className="col-span-3"
             >
-              <Lottie options={lott2} height={200} />
+              <Lottie
+                style={{ cursor: "default" }}
+                isClickToPauseDisabled={true}
+                options={lott2}
+                height={200}
+              />
             </div>
           </div>
         </div>
         {/* for mobile */}
-        <div className="bg-gray-300 container mx-auto sm:hidden p-1">
-          <div className="bg-gray-300 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-cormorant text-base p-10">
+        <div className="bg-gray-300 sm:hidden p-1">
+          <div className="bg-gray-300 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-audrey text-base p-10">
             <div
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -98,7 +107,11 @@ class Section2 extends Component {
               data-aos-duration="1000"
               className="col-span-2 row-span-2"
             >
-              <Lottie options={lott1} />
+              <Lottie
+                style={{ cursor: "default" }}
+                isClickToPauseDisabled={true}
+                options={lott1}
+              />
             </div>
             <div
               data-aos="fade-in"
@@ -124,7 +137,12 @@ class Section2 extends Component {
               data-aos-delay="500"
               className="col-span-4"
             >
-              <Lottie options={lott2} height={125} />
+              <Lottie
+                style={{ cursor: "default" }}
+                isClickToPauseDisabled={true}
+                options={lott2}
+                height={125}
+              />
             </div>
           </div>
         </div>

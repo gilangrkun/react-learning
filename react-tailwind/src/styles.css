@@ -5,14 +5,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: Audrey;
+    font-weight: 400;
+    src: local(Audrey), url("./assets/fonts/audrey/AudreyNormal.woff") format("woff");
+}
+@font-face {
+    font-family: Audrey;
+    font-weight: 700;
+    src: local(Audrey), url(./assets/fonts/audrey/AudreyBold.woff) format("woff");
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    text-align: center;
+    padding: 2px 6px;
+    position: absolute;
+    z-index: 100;
+  }
+.tooltip:hover .tooltip-text {
+visibility: visible;
+}
+.font-audrey {
+    font-family: Audrey;
+    font-weight: 400;
+}
+.font-audrey-bold {
+    font-family: Audrey;
+    font-weight: 700;
+}
 .slick-dots {
     bottom: 30px;
 }
-
 .slick-slide div {
     outline: none;
 }
-
 .react-tabs__tab {
     padding: 0 4px;
 }
