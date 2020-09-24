@@ -6,9 +6,6 @@ import landing from "../assets/lottie/23583-atomic-design-web-size.json";
 import arrow from "../assets/lottie/27308-arrow-scroll-down.json";
 import hello from "../assets/lottie/28826-hello-gilbert.json";
 
-// img
-import Avatar from "../assets/img/kuntiaCrop.png";
-
 // aos
 import AOS from "aos";
 
@@ -83,15 +80,6 @@ class Section1 extends Component {
             </div>
           </div>
         </div>
-        {/* <div className="bg-purple-300 w-full relative">
-          <div className="container grid grid-cols-1 grid-rows-1 p-1">
-            <div className="flex justify-center bg-purple-300 rounded-lg shadow-inner py-12">
-              <div>
-                <img src={Avatar} alt="Gilang Riyadi Kuntiarso" />
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     );
   }

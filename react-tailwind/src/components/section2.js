@@ -31,6 +31,7 @@ class Section2 extends Component {
 
     return (
       <div className="w-full relative">
+        {/* for larger screen */}
         <div className="container hidden sm:block mx-auto px-32 py-24">
           <div className="grid grid-cols-3 gap-4 font-cormorant text-lg">
             <div
@@ -80,6 +81,7 @@ class Section2 extends Component {
             </div>
           </div>
         </div>
+        {/* for mobile */}
         <div className="bg-gray-300 container mx-auto sm:hidden p-1">
           <div className="bg-gray-300 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-cormorant text-base p-10">
             <div

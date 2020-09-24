@@ -25,6 +25,7 @@ class Section4 extends Component {
 
     return (
       <div className="w-full relative">
+        {/* for laptop or larger screen */}
         <div className="container mx-auto hidden md:block px-32 py-24 font-cormorant text-lg">
           <div className="grid grid-cols-1 grid-rows-1 m-4">
             <div className="grid grid-cols-4">
@@ -139,6 +140,8 @@ class Section4 extends Component {
             </div>
           </div>
         </div>
+
+        {/* for mobile */}
         <div className="bg-gray-200 mx-auto md:hidden p-1">
           <div className="bg-gray-200 rounded-lg shadow-inner grid grid-cols-1 gap-4 font-cormorant text-base p-8">
             <div
