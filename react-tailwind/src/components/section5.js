@@ -10,7 +10,7 @@ class Section5 extends Component {
     var settings = {
       dots: true,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 12000,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -20,18 +20,18 @@ class Section5 extends Component {
       focusOnSelect: true,
     };
     return (
-      <div className="grid grid-rows-1 grid-cols-1 relative font-cormorant text-base md:text-lg">
+      <div className="grid grid-rows-1 grid-cols-1 relative font-cormorant text-lg text-white md:text-xl">
         <div>
           <Slider {...settings}>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-purple-300 shadow-inner flex flex-col justify-center items-center px-10"
+                className="bg-indigo-900 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-duration="750"
-                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
+                  data-aos-anchor-placement="bottom-bottom"
+                  className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>
                     "Tell me and I forget. Teach me and I remember.
@@ -42,7 +42,7 @@ class Section5 extends Component {
                 <small
                   className="font-audrey"
                   data-aos="zoom-in"
-                  data-aos-duration="750"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   - Benjamin Franklin
                 </small>
@@ -50,18 +50,18 @@ class Section5 extends Component {
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-green-300 shadow-inner flex flex-col justify-center items-center px-10"
+                className="bg-teal-900 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-duration="750"
-                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
+                  data-aos-anchor-placement="bottom-bottom"
+                  className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>
                     "Nothing is impossible, the word itself says,
                     <br />
-                    <span className="font-bold text-3xl md:text-5xl">
+                    <span className="font-bold text-4xl md:text-6xl">
                       I'm Possible!
                     </span>
                     ."
@@ -70,7 +70,7 @@ class Section5 extends Component {
                 <small
                   className="font-audrey"
                   data-aos="zoom-in"
-                  data-aos-duration="750"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   - Audrey Hepburn
                 </small>
@@ -78,20 +78,20 @@ class Section5 extends Component {
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-orange-300 shadow-inner flex flex-col justify-center items-center px-10"
+                className="bg-yellow-900 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-duration="750"
-                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
+                  data-aos-anchor-placement="bottom-bottom"
+                  className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>"I would rather die of passion than of boredom."</i>
                 </p>
                 <small
                   className="font-audrey"
                   data-aos="zoom-in"
-                  data-aos-duration="750"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   - Vincent van Gogh
                 </small>
@@ -99,13 +99,13 @@ class Section5 extends Component {
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-gray-400 shadow-inner flex flex-col justify-center items-center px-10"
+                className="bg-red-900 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-duration="750"
-                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
+                  data-aos-anchor-placement="bottom-bottom"
+                  className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>
                     "The way to get started is to quit talking and begin doing."
@@ -114,7 +114,7 @@ class Section5 extends Component {
                 <small
                   className="font-audrey"
                   data-aos="zoom-in"
-                  data-aos-duration="750"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   - Walt Disney
                 </small>
@@ -122,20 +122,20 @@ class Section5 extends Component {
             </div>
             <div className="grid grid-rows-1 grid-cols-1">
               <div
-                className="bg-indigo-400 shadow-inner flex flex-col justify-center items-center px-10"
+                className="bg-gray-800 shadow-inner flex flex-col justify-center items-center px-10"
                 style={{ height: "30rem" }}
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-duration="750"
-                  className="my-4 text-2xl md:text-4xl font-semibold text-center"
+                  data-aos-anchor-placement="bottom-bottom"
+                  className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>"Life is trying things to see if they work."</i>
                 </p>
                 <small
                   className="font-audrey"
                   data-aos="zoom-in"
-                  data-aos-duration="750"
+                  data-aos-anchor-placement="bottom-bottom"
                 >
                   - Ray Bradbury
                 </small>

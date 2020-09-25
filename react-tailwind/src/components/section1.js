@@ -44,7 +44,7 @@ class Section1 extends Component {
               </i>
             </p>
           </div>
-          <div className="col-span-1 px-32 pt-32 pb-0">
+          <div className="col-span-1 px-32 pt-32 pb-10">
             <Lottie
               style={{ cursor: "default" }}
               isClickToPauseDisabled={true}

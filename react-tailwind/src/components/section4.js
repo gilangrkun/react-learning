@@ -144,10 +144,19 @@ class Section4 extends Component {
         </div>
 
         <div className="bg-gray-200 mx-auto md:hidden p-1">
-          <div className="bg-gray-200 rounded-lg shadow-inner grid grid-cols-1 gap-4 font-audrey text-base p-8">
+          <div className="bg-gray-200 grid grid-cols-1 gap-8 font-audrey text-lg p-10">
             <div
               data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1 flex justify-center items-center p-3"
+            >
+              <p className="font-semibold text-center text-3xl">
+                <i>What I've done so far: </i>
+              </p>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
               className="col-span-1"
             >
               <Lottie
@@ -158,26 +167,16 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-duration="1000"
-              className="col-span-1 flex justify-center py-4"
-            >
-              <p className="font-semibold text-2xl">
-                <i>What I've done so far: </i>
-              </p>
-            </div>
-            <div
-              data-aos="fade-in"
-              data-aos-offset="250"
-              data-aos-duration="750"
+              data-aos-anchor-placement="bottom-bottom"
               className="col-span-1 flex justify-center py-4"
             >
               <div className="bg-teal-500 max-w-sm rounded overflow-hidden shadow-2xl">
                 <img src={Product} alt="Order Management System" />
                 <div className="px-6 py-4">
-                  <div className="font-semibold text-lg mb-2">
+                  <div className="font-semibold text-xl mb-2">
                     <i>Order Management System</i>
                   </div>
-                  <p className="text-sm">
+                  <p>
                     I do develop web for Order Management System (OMS){" "}
                     <a
                       className="text-blue-600 hover:text-blue-800"
@@ -202,18 +201,17 @@ class Section4 extends Component {
               </div>
             </div>
             <div
-              data-aos="fade-in"
-              data-aos-offset="250"
-              data-aos-duration="750"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
               className="col-span-1 flex justify-center py-4"
             >
               <div className="bg-orange-500 max-w-sm rounded overflow-hidden shadow-2xl">
                 <img src={Integration} alt="Integration" />
                 <div className="px-6 py-4">
-                  <div className="font-semibold text-lg mb-2">
+                  <div className="font-semibold text-xl mb-2">
                     <i>Marketplace Integration</i>
                   </div>
-                  <p className="text-sm">
+                  <p>
                     Connecting our client's OMS,{" "}
                     <a
                       className="text-blue-600 hover:text-blue-800"

@@ -31,7 +31,7 @@ class Section2 extends Component {
 
     return (
       <div className="bg-white w-full relative">
-        <div className="container hidden sm:block mx-auto px-32 py-24">
+        <div className="container hidden md:block mx-auto px-32 py-24">
           <div className="grid grid-cols-3 gap-4 font-audrey text-lg">
             <div
               data-aos="fade-down"
@@ -90,21 +90,21 @@ class Section2 extends Component {
           </div>
         </div>
 
-        <div className="bg-gray-300 sm:hidden p-1">
-          <div className="bg-gray-300 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-audrey text-base p-10">
+        <div className="bg-gray-200 md:hidden p-1">
+          <div className="bg-gray-200 grid grid-cols-1 gap-8 font-audrey text-lg p-10">
             <div
-              data-aos="fade-down"
-              data-aos-duration="1000"
-              className="col-span-2 row-span-2 flex items-center"
+              data-aos="fade-in"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1 flex justify-center items-center"
             >
-              <p className="font-bold text-2xl">
+              <p className="font-bold text-3xl">
                 <i>Hi, there!</i>
               </p>
             </div>
             <div
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="col-span-2 row-span-2"
+              data-aos="fade-in"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1"
             >
               <Lottie
                 style={{ cursor: "default" }}
@@ -114,12 +114,11 @@ class Section2 extends Component {
             </div>
             <div
               data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-              className="col-span-4 flex items-center"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1 flex items-center"
             >
               <p className="text-justify">
-                I'm{" "}
+                {"      "}I'm{" "}
                 <i>
                   <b>Gilang Riyadi Kuntiarso</b>
                 </i>{" "}
@@ -131,10 +130,9 @@ class Section2 extends Component {
               </p>
             </div>
             <div
-              data-aos="fade-out"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-              className="col-span-4"
+              data-aos="fade-in"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1"
             >
               <Lottie
                 style={{ cursor: "default" }}

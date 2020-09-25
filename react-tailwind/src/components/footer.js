@@ -185,7 +185,9 @@ class Footer extends Component {
           </div>
           <div className="col-span-1 grid grid-cols-1 gap-2">
             <div className="col-span-1 flex justify-center font-audrey">
-              <p>gilang.grk17@gmail.com</p>
+              <p>
+                gilang.grk17<span className="font-serif">@</span>gmail.com
+              </p>
             </div>
             <div className="col-span-1 flex justify-center">
               <div className="h-1" style={{ backgroundColor: "#444240" }}>
@@ -199,7 +201,7 @@ class Footer extends Component {
               </p>
             </div>
           </div>
-          <div className="col-span-1 flex justify-center font-audrey text-center text-5xl">
+          <div className="col-span-1 flex justify-center font-audrey text-center pt-16 text-5xl">
             <p>Gilang Riyadi Kuntiarso</p>
           </div>
         </div>

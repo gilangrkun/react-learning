@@ -14,7 +14,7 @@ const HelloHi = () => {
   };
   return (
     <Fragment>
-      <div className="bg-white w-full relative md:hidden">
+      <div className="bg-gray-200 w-full relative md:hidden">
         <div className="container mx-auto grid grid-cols-1">
           <div>
             <Lottie

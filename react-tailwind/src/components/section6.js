@@ -96,22 +96,20 @@ class Section6 extends Component {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-inner md:hidden grid grid-cols-1 gap-4 font-audrey text-base p-5">
+          <div className="bg-white md:hidden grid grid-cols-1 gap-8 font-audrey text-lg p-10">
             <div
               data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="250"
+              data-aos-anchor-placement="bottom-bottom"
               className="px-4"
             >
-              <p className="font-semibold text-2xl text-center">
+              <p className="font-semibold text-3xl text-center">
                 <i>My programming experiences: </i>
               </p>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1">
               <div
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-delay="250"
+                data-aos="fade-in"
+                data-aos-anchor-placement="bottom-bottom"
                 className="col-span-1"
               >
                 <Lottie
@@ -120,13 +118,14 @@ class Section6 extends Component {
                   options={listLott}
                 />
               </div>
-              <div className="col-span-1 text-sm p-4 flex items-center">
+            </div>
+            <div className="grid grid-cols-1">
+              <div className="col-span-1 text-sm px-12 flex items-center">
                 <div>
                   <ul className="list-disc list-outside">
                     <li
                       data-aos="fade-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="250"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p>Full Stack Bootcamp at Praxis Academy</p>
                       <small>2020.02.28 - 2020.06.28</small>
@@ -134,8 +133,7 @@ class Section6 extends Component {
                     <br />
                     <li
                       data-aos="fade-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="500"
+                      data-aos-anchor-placement="bottom-bottom"
                     >
                       <p>
                         Programmer at{" "}
@@ -158,8 +156,8 @@ class Section6 extends Component {
           </div>
         </div>
 
-        <div className="bg-orange-100 w-full relative p-1">
-          <div className="bg-orange-100 hidden sm:grid sm:grid-cols-2 font-audrey text-lg mt-12 p-5">
+        <div className="bg-gray-200 w-full relative p-1">
+          <div className="bg-gray-200 hidden md:grid md:grid-cols-2 font-audrey text-lg mt-12 p-5">
             <div
               data-aos="fade-in"
               data-aos-duration="1000"
@@ -222,11 +220,10 @@ class Section6 extends Component {
             </div>
           </div>
 
-          <div className="bg-orange-100 rounded-lg shadow-inner sm:hidden grid grid-cols-1 font-audrey text-base p-5">
+          <div className="bg-gray-200 md:hidden grid grid-cols-1 font-audrey p-10">
             <div
               data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="500"
+              data-aos-anchor-placement="bottom-bottom"
               className="flex justify-center"
             >
               <div>
@@ -239,41 +236,24 @@ class Section6 extends Component {
             </div>
             <div
               data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="250"
+              data-aos-anchor-placement="bottom-bottom"
               className="flex justify-center"
             >
               <div>
                 <img src={Avatar} alt="Gilang Riyadi Kuntiarso" />
               </div>
             </div>
-            <div className="flex flex-col text-center py-4 font-semibold font-cormorant text-4xl">
-              <p
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="250"
-              >
+            <div className="flex flex-col text-center py-16 font-semibold font-cormorant text-5xl">
+              <p data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
                 <i>Thank</i>
               </p>
-              <p
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="250"
-              >
+              <p data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
                 <i>you</i>
               </p>
-              <p
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="250"
-              >
+              <p data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
                 <i>for</i>
               </p>
-              <p
-                data-aos="fade-in"
-                data-aos-duration="1000"
-                data-aos-delay="250"
-              >
+              <p data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
                 <i>visiting!</i>
               </p>
             </div>

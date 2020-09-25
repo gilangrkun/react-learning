@@ -368,21 +368,21 @@ class Section3 extends Component {
           </div>
         </div>
 
-        <div className="bg-purple-200 mx-auto md:hidden p-1">
-          <div className="bg-purple-200 rounded-lg shadow-inner grid grid-cols-4 gap-4 font-audrey text-base p-5">
+        <div className="bg-gray-100 mx-auto md:hidden p-1">
+          <div className="bg-gray-100 grid grid-cols-1 gap-8 font-audrey text-lg p-10">
             <div
-              data-aos="zoom-in-down"
-              data-aos-duration="1000"
-              className="col-span-2 flex items-center"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1 flex justify-center items-center"
             >
-              <p className="font-semibold text-2xl">
+              <p className="font-semibold text-3xl">
                 <i>What can I do: </i>
               </p>
             </div>
             <div
-              data-aos="zoom-in-up"
-              data-aos-duration="1000"
-              className="col-span-2"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1 p-2"
             >
               <Lottie
                 style={{ cursor: "default" }}
@@ -391,31 +391,30 @@ class Section3 extends Component {
               />
             </div>
             <div
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-              className="col-span-4"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="bottom-bottom"
+              className="col-span-1"
             >
               <Tabs forceRenderTabPanel defaultIndex={1}>
                 <TabList>
-                  <Tab className="text-sm">Front-End</Tab>
-                  <Tab className="text-sm">Back-End</Tab>
-                  <Tab className="text-sm">Other Tools</Tab>
+                  <Tab>Front-End</Tab>
+                  <Tab>Back-End</Tab>
+                  <Tab>Other Tools</Tab>
                 </TabList>
                 <TabPanel>
                   <Tabs forceRenderTabPanel>
                     <TabList>
-                      <Tab className="text-sm">HTML</Tab>
-                      <Tab className="text-sm">CSS</Tab>
-                      <Tab className="text-sm">JavaScript</Tab>
-                      <Tab className="text-sm">React.js</Tab>
-                      <Tab className="text-sm">Bootstrap</Tab>
-                      <Tab className="text-sm">Tailwind.css</Tab>
+                      <Tab>HTML</Tab>
+                      <Tab>CSS</Tab>
+                      <Tab>JavaScript</Tab>
+                      <Tab>React.js</Tab>
+                      <Tab>Bootstrap</Tab>
+                      <Tab>Tailwind.css</Tab>
                     </TabList>
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             Of course, I do using <i>HTML</i> to create a web
                             page.
                           </p>
@@ -428,7 +427,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I'm able to use <i>CSS</i> for styling the web page.
                           </p>
                         </div>
@@ -440,7 +439,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I use <i>JS</i> to make some function of the web
                             page.
                           </p>
@@ -453,7 +452,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I loved to use <i>React.js</i> to develop a complex
                             projects.
                           </p>
@@ -466,7 +465,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I loved to use <i>Bootstrap</i> which was easy and
                             best for styling.
                           </p>
@@ -479,7 +478,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             <i>TailwindCSS</i> is best for customizing a web
                             designs.
                           </p>
@@ -494,29 +493,27 @@ class Section3 extends Component {
                 <TabPanel>
                   <Tabs forceRenderTabPanel>
                     <TabList>
-                      <Tab className="text-sm">Java</Tab>
-                      <Tab className="text-sm">Spring-Boot</Tab>
-                      <Tab className="text-sm">MongoDB</Tab>
-                      <Tab className="text-sm">PostgreSQL</Tab>
-                      <Tab className="text-sm">Firebase</Tab>
+                      <Tab>Java</Tab>
+                      <Tab>Spring-Boot</Tab>
+                      <Tab>MongoDB</Tab>
+                      <Tab>PostgreSQL</Tab>
+                      <Tab>Firebase</Tab>
                     </TabList>
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div
-                          data-aos="fade-in"
-                          data-aos-duration="1000"
-                          data-aos-delay="500"
+                          data-aos="zoom-in"
+                          data-aos-anchor-placement="bottom-bottom"
                           className="col-span-1"
                         >
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I choose <i>Java</i> because it can use for
                             general-purpose and have large of community.
                           </p>
                         </div>
                         <div
-                          data-aos="fade-in"
-                          data-aos-duration="1000"
-                          data-aos-delay="500"
+                          data-aos="zoom-in"
+                          data-aos-anchor-placement="bottom-bottom"
                           className="col-span-1 row-span-4 flex justify-center items-start"
                         >
                           <Java />
@@ -526,7 +523,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             As a java programmer, to create a big project or
                             develop a micro-services, I use <i>Spring Boot</i>.
                           </p>
@@ -539,7 +536,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I'm able to use <i>MongoDB</i> for storing document
                             like JSON data.
                           </p>
@@ -552,7 +549,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             To store relational data, I'm able to use{" "}
                             <i>PostgreSQL</i>.
                           </p>
@@ -565,7 +562,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             Sometimes, I loved to learn <i>Firebase</i> for
                             storing real-time data.
                           </p>
@@ -580,16 +577,16 @@ class Section3 extends Component {
                 <TabPanel>
                   <Tabs forceRenderTabPanel>
                     <TabList>
-                      <Tab className="text-sm">Git</Tab>
-                      <Tab className="text-sm">GitHub</Tab>
-                      <Tab className="text-sm">GitLab</Tab>
-                      <Tab className="text-sm">Linux</Tab>
-                      <Tab className="text-sm">Arch</Tab>
+                      <Tab>Git</Tab>
+                      <Tab>GitHub</Tab>
+                      <Tab>GitLab</Tab>
+                      <Tab>Linux</Tab>
+                      <Tab>Arch</Tab>
                     </TabList>
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I always managed all of my code using <i>Git</i>.
                           </p>
                         </div>
@@ -601,7 +598,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             For sharing and learning, I use <i>GitHub</i>.
                           </p>
                         </div>
@@ -613,7 +610,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             <i>GitLab</i> is perfect for storing, also deploying
                             a project.
                           </p>
@@ -626,7 +623,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             <i>Linux</i> for development.
                           </p>
                         </div>
@@ -638,7 +635,7 @@ class Section3 extends Component {
                     <TabPanel>
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
-                          <p className="text-center text-sm">
+                          <p className="text-center">
                             I'm a fan of Arch. My favorite distribution of all
                             TIME!!!
                           </p>
