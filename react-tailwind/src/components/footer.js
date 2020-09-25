@@ -11,6 +11,7 @@ import {
 import AOS from "aos";
 
 import "../styles.css";
+import ScrollToTop from "./scrolltop";
 
 class Footer extends Component {
   render() {
@@ -19,7 +20,7 @@ class Footer extends Component {
       <div
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        className="w-full relative font-semibold font-cormorant text-lg"
+        className="w-full relative font-semibold font-cormorant text-xl"
         style={{ backgroundColor: "#c1b9b3", color: "#444240" }}
       >
         <div className="container mx-auto hidden md:grid md:grid-cols-4 md:gap-4 py-32">
@@ -205,6 +206,7 @@ class Footer extends Component {
             <p>Gilang Riyadi Kuntiarso</p>
           </div>
         </div>
+        <ScrollToTop />
       </div>
     );
   }

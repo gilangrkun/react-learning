@@ -30,22 +30,22 @@ class Section2 extends Component {
     };
 
     return (
-      <div className="bg-white w-full relative">
-        <div className="container hidden md:block mx-auto px-32 py-24">
-          <div className="grid grid-cols-3 gap-4 font-audrey text-lg">
+      <div className="bg-gray-200 w-full relative">
+        <div className="container hidden md:block mx-auto px-16 py-24">
+          <div className="grid grid-cols-3 gap-4 font-audrey text-xl">
             <div
               data-aos="fade-down"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex items-center"
             >
-              <p className="font-bold text-4xl">
+              <p className="font-bold text-5xl">
                 <i>Hi, there!</i>
               </p>
             </div>
             <div className="col-span-1"></div>
             <div
               data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 row-span-2"
             >
               <Lottie
@@ -56,7 +56,7 @@ class Section2 extends Component {
             </div>
             <div
               data-aos="fade-right"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-2 flex items-center"
             >
               <p>
@@ -77,7 +77,7 @@ class Section2 extends Component {
             </div>
             <div
               data-aos="fade-left"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-3"
             >
               <Lottie
@@ -94,7 +94,7 @@ class Section2 extends Component {
           <div className="bg-gray-200 grid grid-cols-1 gap-8 font-audrey text-lg p-10">
             <div
               data-aos="fade-in"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex justify-center items-center"
             >
               <p className="font-bold text-3xl">
@@ -103,7 +103,7 @@ class Section2 extends Component {
             </div>
             <div
               data-aos="fade-in"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1"
             >
               <Lottie
@@ -114,7 +114,7 @@ class Section2 extends Component {
             </div>
             <div
               data-aos="fade-in"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex items-center"
             >
               <p className="text-justify">
@@ -131,7 +131,7 @@ class Section2 extends Component {
             </div>
             <div
               data-aos="fade-in"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1"
             >
               <Lottie

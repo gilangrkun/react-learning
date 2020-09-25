@@ -25,8 +25,8 @@ const HelloHi = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white w-full relative hidden md:block">
-        <p className="text-6xl py-24 invisible">Hello world</p>
+      <div className="bg-gray-200 w-full relative hidden md:block">
+        <p className="text-6xl pt-64 pb-32 invisible">Hello world</p>
         <div className="absolute z-10 top-0 mx-auto grid grid-cols-1 px-32">
           <div>
             <Lottie

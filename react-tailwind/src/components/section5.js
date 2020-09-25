@@ -10,14 +10,11 @@ class Section5 extends Component {
     var settings = {
       dots: true,
       autoplay: true,
-      autoplaySpeed: 12000,
+      autoplaySpeed: 8000,
       infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      speed: 200,
       arrows: false,
-      pauseOnHover: false,
-      focusOnSelect: true,
+      pauseOnHover: true,
     };
     return (
       <div className="grid grid-rows-1 grid-cols-1 relative font-cormorant text-lg text-white md:text-xl">
@@ -30,7 +27,7 @@ class Section5 extends Component {
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-anchor-placement="center-bottom"
                   className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>
@@ -42,7 +39,7 @@ class Section5 extends Component {
                 <small
                   className="font-audrey"
                   data-aos="zoom-in"
-                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-anchor-placement="center-bottom"
                 >
                   - Benjamin Franklin
                 </small>
@@ -55,7 +52,7 @@ class Section5 extends Component {
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-anchor-placement="center-bottom"
                   className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>
@@ -70,7 +67,7 @@ class Section5 extends Component {
                 <small
                   className="font-audrey"
                   data-aos="zoom-in"
-                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-anchor-placement="center-bottom"
                 >
                   - Audrey Hepburn
                 </small>
@@ -83,7 +80,7 @@ class Section5 extends Component {
               >
                 <p
                   data-aos="zoom-in"
-                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-anchor-placement="center-bottom"
                   className="my-4 text-3xl md:text-5xl font-semibold text-center"
                 >
                   <i>"I would rather die of passion than of boredom."</i>

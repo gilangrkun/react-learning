@@ -42,12 +42,12 @@ class Section3 extends Component {
     };
 
     return (
-      <div className="w-full bg-gray-300 relative">
-        <div className="container mx-auto hidden md:block px-32 py-24">
-          <div className="grid grid-cols-3 grid-rows-4 gap-4 font-audrey text-lg">
+      <div className="w-full bg-gray-100 relative">
+        <div className="container mx-auto hidden md:block px-16 py-24">
+          <div className="grid grid-cols-3 grid-rows-4 gap-4 font-audrey text-xl">
             <div
               data-aos="zoom-in-right"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 row-span-4"
             >
               <Lottie
@@ -58,17 +58,17 @@ class Section3 extends Component {
             </div>
             <div
               data-aos="zoom-in-left"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex items-center"
             >
-              <p className="font-bold text-4xl">
+              <p className="font-bold text-5xl">
                 <i>What can I do: </i>
               </p>
             </div>
             <div className="col-span-1"></div>
             <div
               data-aos="zoom-in-up"
-              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-2 row-span-3"
             >
               <Tabs forceRenderTabPanel defaultIndex={1}>
@@ -207,19 +207,17 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
                         <div
                           data-aos="zoom-out-up"
-                          data-aos-duration="1000"
-                          data-aos-delay="200"
+                          data-aos-anchor-placement="center-bottom"
                           className="col-span-1"
                         >
                           <p className="text-center">
-                            I choose <i>Java</i> because it can use for
-                            general-purpose and have large of community.
+                            I choose <i>Java</i> cause it is general-purposed
+                            language.
                           </p>
                         </div>
                         <div
                           data-aos="zoom-out-up"
-                          data-aos-duration="1000"
-                          data-aos-delay="250"
+                          data-aos-anchor-placement="center-bottom"
                           className="col-span-1 row-span-4 flex justify-center items-start"
                         >
                           <Java />
@@ -230,8 +228,8 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
                         <div className="col-span-1">
                           <p className="text-center">
-                            As a java programmer, to create a big project or
-                            develop a micro-services, I use <i>Spring Boot</i>.
+                            To create and develop a big project, I use{" "}
+                            <i>Spring Boot</i>.
                           </p>
                         </div>
                         <div className="col-span-1 row-span-4 flex justify-center items-start">
@@ -372,7 +370,7 @@ class Section3 extends Component {
           <div className="bg-gray-100 grid grid-cols-1 gap-8 font-audrey text-lg p-10">
             <div
               data-aos="zoom-in"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex justify-center items-center"
             >
               <p className="font-semibold text-3xl">
@@ -381,7 +379,7 @@ class Section3 extends Component {
             </div>
             <div
               data-aos="zoom-in"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 p-2"
             >
               <Lottie
@@ -392,7 +390,7 @@ class Section3 extends Component {
             </div>
             <div
               data-aos="zoom-in"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1"
             >
               <Tabs forceRenderTabPanel defaultIndex={1}>
@@ -503,7 +501,7 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div
                           data-aos="zoom-in"
-                          data-aos-anchor-placement="bottom-bottom"
+                          data-aos-anchor-placement="center-bottom"
                           className="col-span-1"
                         >
                           <p className="text-center">
@@ -513,7 +511,7 @@ class Section3 extends Component {
                         </div>
                         <div
                           data-aos="zoom-in"
-                          data-aos-anchor-placement="bottom-bottom"
+                          data-aos-anchor-placement="center-bottom"
                           className="col-span-1 row-span-4 flex justify-center items-start"
                         >
                           <Java />

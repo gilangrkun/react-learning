@@ -18,11 +18,11 @@ class Section1 extends Component {
       <div className="w-full h-screen absolute top-0 flex items-end font-bold font-audrey-bold text-base">
         <div className="hidden container mx-auto md:grid md:grid-cols-4">
           <div className="col-span-3">
-            <p className="text-6xl" style={{ color: "#6f6ee7" }}>
+            <p className="text-6xl text-gray-400">
               <i>
                 Welcome to
                 <br />
-                Mr. Kun - Web Page
+                <span style={{ color: "#8D6E63" }}>KUN</span> - web page
               </i>
             </p>
           </div>
@@ -36,11 +36,11 @@ class Section1 extends Component {
         </div>
         <div className="container mx-auto md:hidden grid grid-cols-1">
           <div className="col-span-1">
-            <p className="text-4xl text-center" style={{ color: "#6f6ee7" }}>
+            <p className="text-4xl text-center text-gray-400">
               <i>
                 Welcome to
                 <br />
-                Mr. Kun - Web Page
+                <span style={{ color: "#8D6E63" }}>KUN</span> - web page
               </i>
             </p>
           </div>

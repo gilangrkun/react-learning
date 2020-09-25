@@ -23,14 +23,14 @@ class Section4 extends Component {
     };
 
     return (
-      <div className="w-full relative">
-        <div className="container mx-auto hidden md:block px-32 py-24 font-audrey text-lg">
+      <div className="bg-white w-full relative">
+        <div className="container mx-auto hidden md:block px-16 py-24 font-audrey text-xl">
           <div className="grid grid-cols-1 grid-rows-1 m-4">
             <div className="grid grid-cols-4">
               <div className="col-span-1"></div>
               <div
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-anchor-placement="center-bottom"
                 className="col-span-2 py-4"
               >
                 <Lottie
@@ -47,10 +47,10 @@ class Section4 extends Component {
               <div className="col-span-1"></div>
               <div
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-anchor-placement="center-bottom"
                 className="col-span-2 flex justify-center py-4"
               >
-                <p className="font-bold text-4xl">
+                <p className="font-bold text-5xl">
                   <i>What I've done so far: </i>
                 </p>
               </div>
@@ -62,14 +62,13 @@ class Section4 extends Component {
               <div className="col-span-1"></div>
               <div
                 data-aos="fade-up-right"
-                data-aos-offset="250"
-                data-aos-duration="750"
+                data-aos-anchor-placement="center-bottom"
                 className="col-span-2 flex justify-center py-4"
               >
                 <div className="bg-green-300 max-w-sm rounded overflow-hidden shadow-2xl">
                   <img src={Product} alt="Order Management System" />
                   <div className="px-6 py-4">
-                    <div className="font-semibold text-xl mb-2">
+                    <div className="font-semibold text-2xl mb-2">
                       <i>Order Management System</i>
                     </div>
                     <p>
@@ -84,13 +83,13 @@ class Section4 extends Component {
                     </p>
                   </div>
                   <div className="px-6 pt-4 pb-2">
-                    <span className="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">
+                    <span className="inline-block bg-orange-600 rounded-full px-3 py-1 text-base font-bold text-white mr-2 mb-2">
                       #java
                     </span>
-                    <span className="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">
+                    <span className="inline-block bg-blue-600 rounded-full px-3 py-1 text-base font-bold text-white mr-2 mb-2">
                       #react
                     </span>
-                    <span className="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">
+                    <span className="inline-block bg-green-600 rounded-full px-3 py-1 text-base font-bold text-white mr-2 mb-2">
                       #mongoDB
                     </span>
                   </div>
@@ -104,14 +103,13 @@ class Section4 extends Component {
               <div className="col-span-1"></div>
               <div
                 data-aos="fade-up-left"
-                data-aos-offset="250"
-                data-aos-duration="750"
+                data-aos-anchor-placement="center-bottom"
                 className="col-span-2 flex justify-center py-4"
               >
                 <div className="bg-indigo-300 max-w-sm rounded overflow-hidden shadow-2xl">
                   <img src={Integration} alt="Integration" />
                   <div className="px-6 py-4">
-                    <div className="font-semibold text-xl mb-2">
+                    <div className="font-semibold text-2xl mb-2">
                       <i>Marketplace Integration</i>
                     </div>
                     <p>
@@ -126,13 +124,13 @@ class Section4 extends Component {
                     </p>
                   </div>
                   <div className="px-6 pt-4 pb-2">
-                    <span className="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">
+                    <span className="inline-block bg-green-600 rounded-full px-3 py-1 text-base font-bold text-white mr-2 mb-2">
                       #spring
                     </span>
-                    <span className="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">
+                    <span className="inline-block bg-orange-600 rounded-full px-3 py-1 text-base font-bold text-white mr-2 mb-2">
                       #java
                     </span>
-                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-base font-bold text-white mr-2 mb-2">
                       #API
                     </span>
                   </div>
@@ -147,7 +145,7 @@ class Section4 extends Component {
           <div className="bg-gray-200 grid grid-cols-1 gap-8 font-audrey text-lg p-10">
             <div
               data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex justify-center items-center p-3"
             >
               <p className="font-semibold text-center text-3xl">
@@ -156,7 +154,7 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1"
             >
               <Lottie
@@ -167,7 +165,7 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex justify-center py-4"
             >
               <div className="bg-teal-500 max-w-sm rounded overflow-hidden shadow-2xl">
@@ -202,7 +200,7 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-anchor-placement="bottom-bottom"
+              data-aos-anchor-placement="center-bottom"
               className="col-span-1 flex justify-center py-4"
             >
               <div className="bg-orange-500 max-w-sm rounded overflow-hidden shadow-2xl">
