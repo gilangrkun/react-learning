@@ -43,3 +43,12 @@ visibility: visible;
 .react-tabs__tab {
     padding: 0 4px;
 }
+.customOverlay {
+    background: #FAF5FF;
+}
+.customModal {
+background: #D6BCFA;
+border-radius: 0.5rem;
+max-width: 1000px;
+width: 100%;
+}

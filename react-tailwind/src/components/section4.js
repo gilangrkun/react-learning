@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,9 +10,40 @@ import animation from "../assets/lottie/BloggingColored.json";
 
 import Product from "../assets/img/products.png";
 import Integration from "../assets/img/integration.png";
+import Dashboard from "../assets/img/dashboard.png";
+import Integrasi from "../assets/img/integrasi.png";
+import Laporan from "../assets/img/laporan.png";
+import Pesanan from "../assets/img/pasnan.png";
+import Produk2 from "../assets/img/produk2.png";
 
 class Section4 extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isOpenDev: false,
+      isOpenInt: false,
+    };
+  }
+
+  onOpenModal = (name) => {
+    if (name === 1) {
+      this.setState({ isOpenDev: true });
+    } else {
+      this.setState({ isOpenInt: true });
+    }
+  };
+
+  onCloseModal = (name) => {
+    console.log(name);
+    if (name === 1) {
+      this.setState({ isOpenDev: false });
+    } else {
+      this.setState({ isOpenInt: false });
+    }
+  };
+
   render() {
+    const { isOpenDev, isOpenInt } = this.state;
     AOS.init();
 
     const lottie1 = {
@@ -21,6 +54,46 @@ class Section4 extends Component {
         preserveAspectRatio: "xMidYMid slice",
       },
     };
+
+    const isiModal = (
+      <div className="grid grid-cols-1 gap-16 md:p-10 font-audrey text-base">
+        <div className="col-span-1 px-16">
+          <p className="text-center font-semibold text-2xl">
+            This is some pictures from <i>oms.detalase.com</i>
+          </p>
+        </div>
+        <div className="col-span-1">
+          <img className="rounded" src={Dashboard} alt="dashboard" />
+          <p className="text-start">
+            <i>pic: Dashboard</i>
+          </p>
+        </div>
+        <div className="col-span-1">
+          <img className="rounded" src={Pesanan} alt="pesanan" />
+          <p className="text-start">
+            <i>pic: Order Page</i>
+          </p>
+        </div>
+        <div className="col-span-1">
+          <img className="rounded" src={Produk2} alt="produk" />
+          <p className="text-start">
+            <i>pic: Product List</i>
+          </p>
+        </div>
+        <div className="col-span-1">
+          <img className="rounded" src={Laporan} alt="laporan" />
+          <p className="text-start">
+            <i>pic: Report Page</i>
+          </p>
+        </div>
+        <div className="col-span-1">
+          <img className="rounded" src={Integrasi} alt="integrasi" />
+          <p className="text-start">
+            <i>pic: Integration Setting</i>
+          </p>
+        </div>
+      </div>
+    );
 
     return (
       <div className="bg-white w-full relative">
@@ -61,6 +134,7 @@ class Section4 extends Component {
             <div className="grid grid-cols-4">
               <div className="col-span-1"></div>
               <div
+                onClick={() => this.onOpenModal(1)}
                 data-aos="fade-up-right"
                 data-aos-anchor-placement="center-bottom"
                 className="col-span-2 flex justify-center py-4"
@@ -76,6 +150,8 @@ class Section4 extends Component {
                       <a
                         className="text-blue-600 hover:text-blue-800"
                         href="https://oms.detalase.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i>oms.detalase.com</i>
                       </a>{" "}
@@ -95,6 +171,17 @@ class Section4 extends Component {
                   </div>
                 </div>
               </div>
+              <Modal
+                open={isOpenDev}
+                onClose={() => this.onCloseModal(1)}
+                center
+                classNames={{
+                  overlay: "customOverlay",
+                  modal: "customModal",
+                }}
+              >
+                {isiModal}
+              </Modal>
               <div className="col-span-1"></div>
             </div>
           </div>
@@ -102,6 +189,7 @@ class Section4 extends Component {
             <div className="grid grid-cols-4">
               <div className="col-span-1"></div>
               <div
+                onClick={() => this.onOpenModal(2)}
                 data-aos="fade-up-left"
                 data-aos-anchor-placement="center-bottom"
                 className="col-span-2 flex justify-center py-4"
@@ -117,6 +205,8 @@ class Section4 extends Component {
                       <a
                         className="text-blue-600 hover:text-blue-800"
                         href="https://oms.detalase.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i>oms.detalase.com</i>
                       </a>{" "}
@@ -136,6 +226,17 @@ class Section4 extends Component {
                   </div>
                 </div>
               </div>
+              <Modal
+                open={isOpenInt}
+                onClose={() => this.onCloseModal(2)}
+                center
+                classNames={{
+                  overlay: "customOverlay",
+                  modal: "customModal",
+                }}
+              >
+                {isiModal}
+              </Modal>
               <div className="col-span-1"></div>
             </div>
           </div>
@@ -165,6 +266,7 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
+              onClick={() => this.onOpenModal(1)}
               data-aos-anchor-placement="top-bottom"
               className="col-span-1 flex justify-center py-4"
             >
@@ -198,8 +300,20 @@ class Section4 extends Component {
                 </div>
               </div>
             </div>
+            <Modal
+              open={isOpenDev}
+              onClose={() => this.onCloseModal(1)}
+              center
+              classNames={{
+                overlay: "customOverlay",
+                modal: "customModal",
+              }}
+            >
+              {isiModal}
+            </Modal>
             <div
               data-aos="fade-up"
+              onClick={() => this.onOpenModal(2)}
               data-aos-anchor-placement="top-bottom"
               className="col-span-1 flex justify-center py-4"
             >
@@ -233,6 +347,17 @@ class Section4 extends Component {
                 </div>
               </div>
             </div>
+            <Modal
+              open={isOpenInt}
+              onClose={() => this.onCloseModal(2)}
+              center
+              classNames={{
+                overlay: "customOverlay",
+                modal: "customModal",
+              }}
+            >
+              {isiModal}
+            </Modal>
           </div>
         </div>
       </div>
