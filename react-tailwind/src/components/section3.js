@@ -109,8 +109,7 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
                         <div className="col-span-1">
                           <p className="text-center">
-                            Of course, I do using <i>HTML</i> to create a web
-                            page.
+                            The first web developer should know is <i>HTML</i>.
                           </p>
                         </div>
                         <div className="col-span-1 row-span-4 flex justify-center items-start">
@@ -267,8 +266,8 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 pl-20 pr-20 pt-2 pb-2">
                         <div className="col-span-1">
                           <p className="text-center">
-                            Sometimes, I loved to learn <i>Firebase</i> for
-                            storing real-time data.
+                            Sometimes, I learn <i>Firebase</i> for storing
+                            real-time data.
                           </p>
                         </div>
                         <div className="col-span-1 row-span-4 flex justify-center items-start">
@@ -390,7 +389,7 @@ class Section3 extends Component {
             </div>
             <div
               data-aos="zoom-in"
-              data-aos-anchor-placement="center-bottom"
+              data-aos-anchor-placement="top-bottom"
               className="col-span-1"
             >
               <Tabs forceRenderTabPanel defaultIndex={1}>
@@ -413,8 +412,7 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
                           <p className="text-center">
-                            Of course, I do using <i>HTML</i> to create a web
-                            page.
+                            The first web developer should know is <i>HTML</i>.
                           </p>
                         </div>
                         <div className="col-span-1 row-span-4 flex justify-center items-start">
@@ -505,8 +503,8 @@ class Section3 extends Component {
                           className="col-span-1"
                         >
                           <p className="text-center">
-                            I choose <i>Java</i> because it can use for
-                            general-purpose and have large of community.
+                            I choose <i>Java</i> cause it is general-purposed
+                            language.
                           </p>
                         </div>
                         <div
@@ -522,8 +520,8 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
                           <p className="text-center">
-                            As a java programmer, to create a big project or
-                            develop a micro-services, I use <i>Spring Boot</i>.
+                            To create and develop a big project, I use{" "}
+                            <i>Spring Boot</i>.
                           </p>
                         </div>
                         <div className="col-span-1 row-span-4 flex justify-center items-start">
@@ -561,8 +559,8 @@ class Section3 extends Component {
                       <div className="grid grid-cols-1 grid-rows-5 gap-4 px-8 py-2">
                         <div className="col-span-1">
                           <p className="text-center">
-                            Sometimes, I loved to learn <i>Firebase</i> for
-                            storing real-time data.
+                            Sometimes, I learn <i>Firebase</i> for storing
+                            real-time data.
                           </p>
                         </div>
                         <div className="col-span-1 row-span-4 flex justify-center items-start">

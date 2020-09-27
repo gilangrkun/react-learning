@@ -72,7 +72,7 @@ class Section4 extends Component {
                       <i>Order Management System</i>
                     </div>
                     <p>
-                      I do develop web for Order Management System (OMS){" "}
+                      I develop web for Order Management System (OMS){" "}
                       <a
                         className="text-blue-600 hover:text-blue-800"
                         href="https://oms.detalase.com"
@@ -113,14 +113,14 @@ class Section4 extends Component {
                       <i>Marketplace Integration</i>
                     </div>
                     <p>
-                      Connecting our client's OMS,{" "}
+                      Connecting our client's{" "}
                       <a
                         className="text-blue-600 hover:text-blue-800"
                         href="https://oms.detalase.com"
                       >
                         <i>oms.detalase.com</i>
-                      </a>
-                      , to online marketplace by integrating data API.
+                      </a>{" "}
+                      to online marketplace by consuming data API.
                     </p>
                   </div>
                   <div className="px-6 pt-4 pb-2">
@@ -165,7 +165,7 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
+              data-aos-anchor-placement="top-bottom"
               className="col-span-1 flex justify-center py-4"
             >
               <div className="bg-teal-500 max-w-sm rounded overflow-hidden shadow-2xl">
@@ -175,7 +175,7 @@ class Section4 extends Component {
                     <i>Order Management System</i>
                   </div>
                   <p>
-                    I do develop web for Order Management System (OMS){" "}
+                    I develop web for Order Management System (OMS){" "}
                     <a
                       className="text-blue-600 hover:text-blue-800"
                       href="https://oms.detalase.com"
@@ -200,7 +200,7 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
+              data-aos-anchor-placement="top-bottom"
               className="col-span-1 flex justify-center py-4"
             >
               <div className="bg-orange-500 max-w-sm rounded overflow-hidden shadow-2xl">
@@ -210,14 +210,14 @@ class Section4 extends Component {
                     <i>Marketplace Integration</i>
                   </div>
                   <p>
-                    Connecting our client's OMS,{" "}
+                    Connecting our client's{" "}
                     <a
                       className="text-blue-600 hover:text-blue-800"
                       href="https://oms.detalase.com"
                     >
                       <i>oms.detalase.com</i>
-                    </a>
-                    , to online marketplace by integrating data API.
+                    </a>{" "}
+                    to online marketplace by consuming data API.
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
