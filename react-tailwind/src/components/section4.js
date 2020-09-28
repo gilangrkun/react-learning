@@ -59,7 +59,15 @@ class Section4 extends Component {
       <div className="grid grid-cols-1 gap-16 md:p-10 font-audrey text-base">
         <div className="col-span-1 px-16">
           <p className="text-center font-semibold text-2xl">
-            This is some pictures from <i>oms.detalase.com</i>
+            This is some pictures from{" "}
+            <a
+              className="text-blue-600 hover:text-blue-800"
+              href="https://oms.detalase.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>oms.detalase.com</i>
+            </a>{" "}
           </p>
         </div>
         <div className="col-span-1">
@@ -134,12 +142,15 @@ class Section4 extends Component {
             <div className="grid grid-cols-4">
               <div className="col-span-1"></div>
               <div
-                onClick={() => this.onOpenModal(1)}
                 data-aos="fade-up-right"
                 data-aos-anchor-placement="center-bottom"
                 className="col-span-2 flex justify-center py-4"
               >
-                <div className="bg-green-300 max-w-sm rounded overflow-hidden shadow-2xl">
+                <div
+                  onClick={() => this.onOpenModal(1)}
+                  style={{ cursor: "pointer" }}
+                  className="bg-green-300 max-w-sm rounded overflow-hidden shadow-2xl"
+                >
                   <img src={Product} alt="Order Management System" />
                   <div className="px-6 py-4">
                     <div className="font-semibold text-2xl mb-2">
@@ -189,12 +200,15 @@ class Section4 extends Component {
             <div className="grid grid-cols-4">
               <div className="col-span-1"></div>
               <div
-                onClick={() => this.onOpenModal(2)}
                 data-aos="fade-up-left"
                 data-aos-anchor-placement="center-bottom"
                 className="col-span-2 flex justify-center py-4"
               >
-                <div className="bg-indigo-300 max-w-sm rounded overflow-hidden shadow-2xl">
+                <div
+                  onClick={() => this.onOpenModal(2)}
+                  style={{ cursor: "pointer" }}
+                  className="bg-indigo-300 max-w-sm rounded overflow-hidden shadow-2xl"
+                >
                   <img src={Integration} alt="Integration" />
                   <div className="px-6 py-4">
                     <div className="font-semibold text-2xl mb-2">
@@ -266,11 +280,13 @@ class Section4 extends Component {
             </div>
             <div
               data-aos="fade-up"
-              onClick={() => this.onOpenModal(1)}
               data-aos-anchor-placement="top-bottom"
               className="col-span-1 flex justify-center py-4"
             >
-              <div className="bg-teal-500 max-w-sm rounded overflow-hidden shadow-2xl">
+              <div
+                onClick={() => this.onOpenModal(1)}
+                className="bg-teal-500 max-w-sm rounded overflow-hidden shadow-2xl"
+              >
                 <img src={Product} alt="Order Management System" />
                 <div className="px-6 py-4">
                   <div className="font-semibold text-xl mb-2">
@@ -313,11 +329,13 @@ class Section4 extends Component {
             </Modal>
             <div
               data-aos="fade-up"
-              onClick={() => this.onOpenModal(2)}
               data-aos-anchor-placement="top-bottom"
               className="col-span-1 flex justify-center py-4"
             >
-              <div className="bg-orange-500 max-w-sm rounded overflow-hidden shadow-2xl">
+              <div
+                onClick={() => this.onOpenModal(2)}
+                className="bg-orange-500 max-w-sm rounded overflow-hidden shadow-2xl"
+              >
                 <img src={Integration} alt="Integration" />
                 <div className="px-6 py-4">
                   <div className="font-semibold text-xl mb-2">
