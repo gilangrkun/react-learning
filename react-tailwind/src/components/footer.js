@@ -69,7 +69,7 @@ class Footer extends Component {
                 github
               </span>
               <a
-                href="https://github.com/gilangrkun"
+                href="https://github.com/kuntiarso"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -158,7 +158,7 @@ class Footer extends Component {
             </div>
             <div className="m-1">
               <a
-                href="https://github.com/gilangrkun"
+                href="https://github.com/kuntiarso"
                 target="_blank"
                 rel="noopener noreferrer"
               >
